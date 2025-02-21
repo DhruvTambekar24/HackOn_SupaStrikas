@@ -7,7 +7,7 @@ import joblib
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend communication
 
-# Load trained model
+
 with open("pipeFinal.pkl", "rb") as model_file:
     model = joblib.load(model_file)
 
