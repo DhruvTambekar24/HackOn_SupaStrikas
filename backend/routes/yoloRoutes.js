@@ -1,15 +1,13 @@
 const express = require("express");
 const multer = require("multer");
 const path = require("path");
-const { saveResult, getResults } = require("../controllers/yoloController"); // ✅ Import properly
+const { saveResult, getResults } = require("../controllers/yoloController");
 
 const router = express.Router();
 
-// ✅ Configure Multer for image uploads
+// ✅ Configure Multer for Image Uploads
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, "uploads/");
-  },
+  destination: "uploads/", // Save images in 'uploads' folder
   filename: (req, file, cb) => {
     cb(null, `${Date.now()}-${file.originalname}`);
   },
@@ -17,8 +15,11 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-// ✅ Define Routes Correctly
-router.post("/save", upload.single("image"), saveResult); // ✅ Ensure `saveResult` is properly imported
-router.get("/results", getResults);
+// ✅ Routes
+router.post("/save", upload.single("image"), saveResult); // Save Image & Data
+router.get("/results", getResults); // Fetch Results
+
+// ✅ Serve Uploaded Images
+router.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
 module.exports = router;

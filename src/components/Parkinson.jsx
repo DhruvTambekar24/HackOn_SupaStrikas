@@ -42,7 +42,7 @@ export default function ParkinsonPredictor() {
     setPrediction(null);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5002/predict", formData);
+      const response = await axios.post("http://127.0.0.1:5003/predict", formData);
       setPrediction(response.data.prediction);
     } catch (err) {
       setError("Error making prediction. Please try again.");

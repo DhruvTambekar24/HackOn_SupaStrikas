@@ -53,12 +53,16 @@ const SkinCancerDetection = () => {
       });
 
       console.log(response.data);
-      setDetectionResult(response.data);
-      setError("");
+      const modifiedResult = {
+        category: response.data.top_result.type, // Fix: Change 'type' to 'category'
+        confidence: response.data.top_result.confidence,
+      };
+
+      setDetectionResult({ top_result: modifiedResult });
 
       // Save the detection result to the database
-      await saveDetectionResult(selectedFile, response.data.top_result);
-    fetchPastResults();// Refresh past results after saving
+      await saveDetectionResult(selectedFile, modifiedResult);
+      fetchPastResults(); // Refresh past results after saving
     } catch (error) {
       console.error("Upload Error:", error);
       setError("Error analyzing the image. Please try again.");
@@ -68,21 +72,21 @@ const SkinCancerDetection = () => {
   };
 
   const saveDetectionResult = async (imageFile, topResult) => {
-    if (!imageFile || !topResult || !topResult.type || topResult.confidence == null) {
+    if (!imageFile || !topResult || !topResult.category || topResult.confidence == null) {
       setError("Invalid result format. Unable to save.");
       return;
     }
-  
+
     const formData = new FormData();
     formData.append("image", imageFile); // ✅ Attach the actual file
     formData.append("top_result", JSON.stringify(topResult)); // ✅ Send as a string
-  
+
     setIsSaving(true);
     try {
       const response = await axios.post("http://localhost:8000/api/yolo/save", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-  
+
       console.log("✅ Detection result saved:", response.data);
       fetchPastResults();
     } catch (error) {
@@ -92,8 +96,6 @@ const SkinCancerDetection = () => {
       setIsSaving(false);
     }
   };
-  
-  
   
   
 
