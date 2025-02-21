@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkinson's Disease Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        form { display: flex; flex-wrap: wrap; gap: 10px; max-width: 600px; }
+        label { width: 100%; font-weight: bold; }
+        input { width: 100%; padding: 5px; }
+        button { padding: 10px 15px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Parkinson's Disease Prediction</h2>
+    <form method="POST">
+        <label>MDVP:Fo(Hz): <input type="text" name="MDVP:Fo(Hz)" value="120.289" required></label>
+        <label>MDVP:Fhi(Hz): <input type="text" name="MDVP:Fhi(Hz)" value="128.143" required></label>
+        <label>MDVP:Flo(Hz): <input type="text" name="MDVP:Flo(Hz)" value="100.209" required></label>
+        <label>MDVP:Jitter(%): <input type="text" name="MDVP:Jitter(%)" value="0.00492" required></label>
+        <label>MDVP:Jitter(Abs): <input type="text" name="MDVP:Jitter(Abs)" value="0.00004" required></label>
+        <label>MDVP:RAP: <input type="text" name="MDVP:RAP" value="0.00269" required></label>
+        <label>MDVP:PPQ: <input type="text" name="MDVP:PPQ" value="0.00238" required></label>
+        <label>Jitter:DDP: <input type="text" name="Jitter:DDP" value="0.00808" required></label>
+        <label>MDVP:Shimmer: <input type="text" name="MDVP:Shimmer" value="0.01412" required></label>
+        <label>MDVP:Shimmer(dB): <input type="text" name="MDVP:Shimmer(dB)" value="0.125" required></label>
+        <label>Shimmer:APQ3: <input type="text" name="Shimmer:APQ3" value="0.00703" required></label>
+        <label>Shimmer:APQ5: <input type="text" name="Shimmer:APQ5" value="0.0082" required></label>
+        <label>MDVP:APQ: <input type="text" name="MDVP:APQ" value="0.01194" required></label>
+        <label>Shimmer:DDA: <input type="text" name="Shimmer:DDA" value="0.0211" required></label>
+        <label>NHR: <input type="text" name="NHR" value="0.0161" required></label>
+        <label>HNR: <input type="text" name="HNR" value="23.949" required></label>
+        <label>RPDE: <input type="text" name="RPDE" value="0.46716" required></label>
+        <label>DFA: <input type="text" name="DFA" value="0.724045" required></label>
+        <label>spread1: <input type="text" name="spread1" value="-6.135296" required></label>
+        <label>spread2: <input type="text" name="spread2" value="0.20363" required></label>
+        <label>D2: <input type="text" name="D2" value="2.539724" required></label>
+        <label>PPE: <input type="text" name="PPE" value="0.169923" required></label>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
