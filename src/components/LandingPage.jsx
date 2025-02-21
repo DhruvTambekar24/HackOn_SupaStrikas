@@ -19,9 +19,9 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
       {/* Header */}
       <header className="w-full py-4 px-8 flex justify-between items-center border-b border-gray-800">
-        <h2 className="text-2xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
-          AI Diagnostic Tool
-        </h2>
+      <h2 className="text-3xl font-extrabold tracking-tighter bg-gradient-to-r from-violet-600 to-cyan-500 bg-clip-text text-transparent">
+            DiagnoseAi
+          </h2>
 
         <div className="flex space-x-4">
           <SignedOut>
@@ -50,7 +50,7 @@ export default function LandingPage() {
                 transition={{ duration: 0.8 }}
                 className="space-y-8"
               >
-                <h1 className="text-6xl font-bold leading-tight bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                <h1 className="text-6xl font-bold leading-tight bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent tracking-tight">
                   AI-Powered Diagnostic Platform
                 </h1>
                 <p className="text-lg text-gray-400 leading-relaxed max-w-xl">

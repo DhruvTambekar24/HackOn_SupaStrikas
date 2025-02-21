@@ -108,13 +108,13 @@ const SkinCancerDetection = () => {
           <h1 className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-cyan-500 bg-clip-text text-transparent text-center mb-12">
             Skin Cancer Detection System
           </h1>
-
+{/* 
           {error && (
             <div className="flex items-center gap-2 text-red-600 bg-red-50 p-4 rounded-lg">
               <AlertCircle size={20} />
               <p>{error}</p>
             </div>
-          )}
+          )} */}
 
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Upload Section */}
