@@ -1,20 +1,76 @@
-import { useState } from 'react'
-import LandingPage from "./components/LandingPage"
-import './App.css'
-import SkinCancerDetection from './components/SkinCancer'
-import LandingPage from './components/LandingPage'
-import { Routes, Route } from 'react-router-dom'
-function App() {
+import { Routes, Route, Navigate } from "react-router-dom";
+import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
+import LandingPage from "./components/LandingPage";
+import SkinCancerDetection from "./components/SkinCancer";
+import Home from "./components/HomePage";
+import NotFound from "./components/NotFound";
+import BrainTumour from "./components/BrainTumour";
+import Records from "./components/Reports";
 
-
+const App = () => {
   return (
-    <div className='m-0 p-0'>
-<Routes>
-  <Route path="/" element={<LandingPage />} />
-  <Route path="/skin" element={<SkinCancerDetection />} />
-</Routes>
-    </div>
-  )
-}
+    <div className="min-h-screen bg-gray-900 text-white">
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route
+          path="/home"
+          element={
+            <>
+              <SignedIn>
+                <Home />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+        <Route
+          path="/tumour"
+          element={
+            <>
+              <SignedIn>
+                <BrainTumour />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
 
-export default App
+        {/* Protected Route for Skin Detection */}
+        <Route
+          path="/report"
+          element={
+            <>
+              <SignedIn>
+                <Records />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+        <Route
+          path="/skin"
+          element={
+            <>
+              <SignedIn>
+                <SkinCancerDetection />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default App;
