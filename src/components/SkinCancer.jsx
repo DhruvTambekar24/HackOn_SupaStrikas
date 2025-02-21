@@ -46,7 +46,7 @@ const SkinCancerDetection = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-8 py-12">
+    <div className=" mx-auto px-8 py-12 flex justify-center items-center h-screen bg-white text-black">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
