@@ -23,6 +23,11 @@ const HomePage = () => {
                 Tumour Detection
               </button>
             </Link>
+            <Link to="/rare-disease">
+              <button className="px-6 py-3 bg-cyan-600 rounded-full text-lg font-semibold hover:bg-cyan-700 transition">
+                RareDx
+              </button>
+            </Link>
             <Link to="/report">
               <button className="px-6 py-3 bg-cyan-600 rounded-full text-lg font-semibold hover:bg-cyan-700 transition">
                 Report Summarizer

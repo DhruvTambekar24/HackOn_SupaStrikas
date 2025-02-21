@@ -7,6 +7,7 @@ import NotFound from "./components/NotFound";
 import BrainTumour from "./components/BrainTumour";
 import Records from "./components/Reports";
 import ParkinsonPredictor from "./components/Parkinson";
+import FileUpload from "./components/FileUpload";
 
 const App = () => {
   return (
@@ -39,6 +40,22 @@ const App = () => {
             </>
           }
         />
+
+<Route path="/" element={<LandingPage />} />
+        <Route
+          path="/rare-disease"
+          element={
+            <>
+              <SignedIn>
+                <FileUpload />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+
         <Route
           path="/tumour"
           element={

@@ -1,0 +1,1001 @@
+patient_id,age,gender,heart_rate,blood_pressure,temperature,respiratory_rate,oxygen_saturation,white_blood_cell_count,hemoglobin,glucose,CRP,symptoms,diagnosis
+P0001,46,F,110,157,36.0,26,92.2,8.0,10.6,89.6,3.1,"bruising, bone pain",Gaucher's Disease
+P0002,73,M,73,117,38.7,25,86.1,9.2,16.3,185.5,18.6,"dark urine, heart valve issues",Alkaptonuria
+P0003,74,M,116,115,37.4,26,96.2,8.4,10.1,186.3,16.8,"joint pain, dark urine",Alkaptonuria
+P0004,31,F,98,91,38.2,17,98.0,13.9,11.8,128.6,40.1,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0005,47,M,76,139,36.3,12,99.4,8.3,10.7,103.3,48.0,"tremors, fatigue",Wilson's Disease
+P0006,37,F,93,101,37.1,24,93.8,6.8,10.6,151.1,30.6,"vision problems, heart murmur",Marfan Syndrome
+P0007,17,F,113,142,37.2,17,87.0,14.4,13.6,101.8,23.0,"jaundice, tremors",Wilson's Disease
+P0008,56,F,118,149,37.4,26,95.9,6.5,17.2,148.4,5.1,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0009,32,M,104,118,37.8,17,94.9,11.9,11.9,97.2,6.9,"fatigue, jaundice",Wilson's Disease
+P0010,29,F,71,121,39.7,20,86.6,9.0,15.3,180.2,49.5,"dark urine, joint pain",Alkaptonuria
+P0011,60,M,115,120,36.3,14,87.7,11.2,11.2,148.5,49.6,"enlarged liver, bone pain",Gaucher's Disease
+P0012,33,M,91,150,36.1,17,90.8,7.8,12.9,168.7,40.6,"burning pain, sweating issues",Fabry Disease
+P0013,51,F,77,96,38.9,26,93.3,7.7,12.7,149.8,38.6,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0014,74,M,93,160,36.8,23,86.7,6.6,16.3,74.9,13.0,"sweating issues, hearing loss",Fabry Disease
+P0015,63,M,106,126,36.9,28,88.3,14.1,17.9,184.5,25.7,"tremors, fatigue",Wilson's Disease
+P0016,78,M,72,130,37.8,13,97.3,10.2,13.4,91.2,3.1,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0017,75,F,88,128,36.0,20,94.0,10.4,15.3,100.2,10.5,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0018,73,M,100,151,37.7,24,91.7,12.2,14.3,173.5,15.1,"bruising, bone pain",Gaucher's Disease
+P0019,32,F,69,124,38.2,14,92.5,7.3,10.0,173.7,16.6,"enlarged liver, bruising",Gaucher's Disease
+P0020,29,M,87,118,36.6,19,96.7,12.7,15.9,179.2,3.6,"vision loss, cognitive decline",Batten Disease
+P0021,44,M,102,106,39.9,14,88.6,9.0,13.5,193.6,35.6,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0022,68,M,71,119,37.8,26,94.7,8.7,13.7,120.8,0.8,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0023,23,F,76,149,37.8,27,87.0,7.7,10.9,110.6,8.4,"dark urine, joint pain",Alkaptonuria
+P0024,54,F,116,130,38.9,22,92.7,9.3,16.5,95.5,24.7,"tremors, fatigue",Wilson's Disease
+P0025,52,M,92,146,39.0,29,89.9,11.8,14.3,86.0,12.0,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0026,29,M,70,143,36.7,23,97.8,11.8,11.7,128.7,26.8,"tremors, jaundice",Wilson's Disease
+P0027,18,M,63,109,38.8,13,91.8,8.7,14.9,88.5,23.2,"fatigue, jaundice",Wilson's Disease
+P0028,14,M,88,132,36.4,14,87.0,9.5,17.8,85.4,39.0,"bruising, enlarged liver",Gaucher's Disease
+P0029,40,F,69,151,39.0,16,89.2,15.0,10.4,144.4,48.6,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0030,5,M,97,147,37.3,19,94.2,10.5,14.8,106.2,45.4,"dark urine, joint pain",Alkaptonuria
+P0031,36,F,96,101,37.1,25,86.2,12.8,14.4,164.0,12.5,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0032,61,M,118,110,39.5,30,91.0,6.7,11.0,81.8,16.6,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0033,64,F,108,111,38.0,14,85.1,7.8,16.2,95.6,1.6,"burning pain, sweating issues",Fabry Disease
+P0034,24,M,116,154,38.7,30,94.4,8.4,10.0,88.9,18.2,"burning pain, sweating issues",Fabry Disease
+P0035,21,F,63,96,36.9,20,87.1,8.2,10.6,134.9,5.5,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0036,22,F,79,118,37.2,21,88.1,5.2,18.0,194.3,37.5,"heart murmur, tall stature",Marfan Syndrome
+P0037,57,F,67,120,37.2,21,92.6,13.1,12.1,185.4,34.2,"hearing loss, burning pain",Fabry Disease
+P0038,29,F,66,132,37.6,25,92.4,14.3,10.1,115.9,2.2,"heart murmur, tall stature",Marfan Syndrome
+P0039,41,F,92,99,38.0,26,95.6,7.5,18.0,169.7,1.3,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0040,24,F,111,129,37.1,14,87.7,10.8,15.3,75.2,43.1,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0041,16,M,97,125,37.0,30,90.3,5.3,10.7,72.4,28.4,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0042,70,M,114,93,38.8,12,88.0,10.7,12.6,191.1,1.4,"tall stature, vision problems",Marfan Syndrome
+P0043,50,F,70,141,36.7,25,99.7,6.5,10.4,75.5,0.2,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0044,14,F,96,94,37.7,21,92.5,8.1,16.1,126.9,46.5,"jaundice, fatigue",Wilson's Disease
+P0045,10,F,73,94,37.1,30,98.8,7.4,14.3,128.1,4.0,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0046,56,F,74,125,37.1,18,87.1,13.9,10.6,192.9,36.5,"sweating issues, hearing loss",Fabry Disease
+P0047,7,M,60,95,38.7,22,93.3,5.6,13.7,131.9,6.5,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0048,55,F,70,119,39.6,22,96.7,4.5,10.8,186.9,10.2,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0049,70,F,93,97,38.2,20,93.1,4.9,13.4,196.9,10.3,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0050,12,F,93,158,36.5,30,95.9,13.5,14.0,180.8,40.2,"dark urine, heart valve issues",Alkaptonuria
+P0051,26,M,89,103,38.1,22,90.3,12.6,15.1,164.3,2.1,"hearing loss, burning pain",Fabry Disease
+P0052,63,M,88,101,37.2,22,98.9,10.9,12.4,99.2,4.6,"sweating issues, burning pain",Fabry Disease
+P0053,80,M,60,142,37.5,18,97.1,12.0,12.9,139.9,27.4,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0054,79,M,93,154,39.8,16,98.4,10.0,16.1,183.8,21.9,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0055,46,F,71,125,38.7,16,93.7,4.0,17.9,76.8,16.0,"seizures, vision loss",Batten Disease
+P0056,67,M,112,139,37.9,16,98.3,12.5,13.6,74.6,33.5,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0057,29,M,80,91,39.4,19,85.7,5.7,14.9,131.0,23.2,"heart murmur, tall stature",Marfan Syndrome
+P0058,19,M,89,127,36.2,14,90.2,7.8,12.7,113.0,35.8,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0059,54,F,70,116,36.4,14,92.3,12.5,12.9,135.8,28.2,"hallucinations, memory loss",Fatal Familial Insomnia
+P0060,77,F,100,99,38.6,12,91.6,12.4,17.9,95.1,16.3,"tall stature, heart murmur",Marfan Syndrome
+P0061,62,M,71,140,38.0,21,88.9,6.3,13.0,174.5,30.7,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0062,45,F,108,121,37.4,23,98.9,6.0,16.6,185.3,14.7,"jaundice, fatigue",Wilson's Disease
+P0063,63,F,115,92,36.0,22,92.7,8.5,12.1,109.4,28.4,"heart murmur, tall stature",Marfan Syndrome
+P0064,57,F,80,127,39.1,21,86.5,15.0,17.1,111.9,9.1,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0065,78,M,117,127,36.3,24,86.8,8.8,10.3,151.3,41.2,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0066,60,F,86,117,38.7,27,97.8,8.0,13.9,134.6,38.2,"anxiety, spasms",Stiff Person Syndrome
+P0067,15,F,71,131,39.7,22,87.2,14.6,10.2,79.7,40.5,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0068,22,F,68,102,39.4,26,91.9,13.3,14.4,88.9,24.3,"hallucinations, memory loss",Fatal Familial Insomnia
+P0069,72,F,109,108,36.1,28,86.8,13.2,11.7,131.6,19.3,"cognitive decline, seizures",Batten Disease
+P0070,78,F,101,137,36.8,12,93.5,14.5,17.6,171.3,8.7,"heart murmur, vision problems",Marfan Syndrome
+P0071,74,F,60,99,38.2,20,99.0,13.0,15.8,156.0,22.2,"spasms, muscle stiffness",Stiff Person Syndrome
+P0072,48,F,86,98,36.5,12,98.4,10.7,14.9,155.7,15.5,"vision loss, seizures",Batten Disease
+P0073,45,F,107,120,37.7,17,98.9,10.5,14.3,185.9,48.1,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0074,34,F,101,143,39.9,16,93.4,13.7,17.5,142.4,24.8,"seizures, vision loss",Batten Disease
+P0075,40,F,62,102,36.8,26,91.1,10.3,10.7,127.8,15.4,"bone pain, bruising",Gaucher's Disease
+P0076,39,M,102,122,38.5,24,92.2,4.2,11.5,129.4,14.9,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0077,19,M,79,116,37.8,24,95.9,7.3,15.4,142.1,44.1,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0078,12,M,103,123,39.4,12,99.0,8.6,14.3,118.5,36.3,"seizures, cognitive decline",Batten Disease
+P0079,75,M,115,138,38.3,27,95.9,11.3,14.4,74.2,6.4,"vision loss, cognitive decline",Batten Disease
+P0080,60,M,64,120,37.8,30,92.6,11.2,12.2,177.4,7.7,"seizures, cognitive decline",Batten Disease
+P0081,60,M,68,146,36.7,19,96.3,7.4,11.2,98.6,47.7,"enlarged liver, bone pain",Gaucher's Disease
+P0082,58,M,99,148,36.0,20,89.6,9.1,14.7,76.0,29.8,"bruising, bone pain",Gaucher's Disease
+P0083,12,M,67,101,39.7,22,88.7,13.3,11.8,186.5,41.5,"heart valve issues, joint pain",Alkaptonuria
+P0084,16,F,67,111,37.6,27,98.4,6.8,11.8,166.9,48.2,"tall stature, heart murmur",Marfan Syndrome
+P0085,27,M,84,106,36.7,25,97.8,7.1,14.8,176.2,28.5,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0086,14,M,80,156,37.1,15,93.3,8.8,12.7,93.9,22.7,"tall stature, vision problems",Marfan Syndrome
+P0087,21,M,61,151,39.8,12,89.0,4.9,11.8,158.3,41.1,"heart valve issues, joint pain",Alkaptonuria
+P0088,57,M,74,98,36.0,19,89.9,10.1,17.3,100.4,12.4,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0089,57,F,104,113,37.0,19,95.6,13.6,17.3,115.0,40.1,"cognitive decline, seizures",Batten Disease
+P0090,51,F,83,108,39.0,24,97.4,6.9,13.9,180.3,23.1,"enlarged liver, bruising",Gaucher's Disease
+P0091,39,M,88,159,36.3,14,99.0,13.7,12.6,193.6,4.6,"bruising, enlarged liver",Gaucher's Disease
+P0092,52,F,110,136,36.9,25,88.8,10.1,16.7,174.2,10.9,"joint pain, heart valve issues",Alkaptonuria
+P0093,56,F,81,122,37.3,27,96.2,4.3,17.8,189.7,12.4,"joint pain, heart valve issues",Alkaptonuria
+P0094,78,F,99,97,39.7,15,86.0,14.2,15.9,147.9,17.0,"tall stature, vision problems",Marfan Syndrome
+P0095,17,M,79,127,38.6,13,94.4,10.2,14.6,97.6,31.8,"hearing loss, sweating issues",Fabry Disease
+P0096,38,F,98,127,39.8,20,94.6,6.8,11.9,74.0,28.2,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0097,12,M,64,149,37.4,15,89.3,14.1,13.7,153.3,44.2,"hearing loss, sweating issues",Fabry Disease
+P0098,53,F,81,126,38.8,26,89.5,11.0,10.4,126.4,10.6,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0099,32,M,69,108,38.7,14,88.7,8.7,17.3,85.3,48.2,"sweating issues, burning pain",Fabry Disease
+P0100,58,M,79,144,39.8,25,92.0,11.7,16.0,98.3,17.9,"cognitive decline, seizures",Batten Disease
+P0101,44,M,89,123,38.5,16,95.5,14.8,11.2,169.6,13.9,"vision loss, seizures",Batten Disease
+P0102,37,M,115,130,38.0,28,89.3,8.7,14.5,109.4,44.7,"joint pain, heart valve issues",Alkaptonuria
+P0103,77,M,74,127,39.9,23,97.2,10.4,11.5,156.4,14.7,"sweating issues, hearing loss",Fabry Disease
+P0104,28,M,119,149,37.9,16,93.1,7.4,16.7,107.7,47.0,"hearing loss, burning pain",Fabry Disease
+P0105,51,M,65,126,37.7,14,90.8,14.5,17.4,83.6,26.3,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0106,74,F,83,115,38.4,26,99.9,9.6,13.0,177.1,26.8,"joint pain, dark urine",Alkaptonuria
+P0107,12,F,109,125,37.7,15,88.3,7.1,10.9,134.4,5.4,"cognitive decline, seizures",Batten Disease
+P0108,60,M,61,115,37.9,21,97.0,9.1,14.5,195.4,15.3,"anxiety, spasms",Stiff Person Syndrome
+P0109,52,F,91,109,37.2,27,98.2,12.6,10.1,154.2,0.4,"heart murmur, tall stature",Marfan Syndrome
+P0110,31,F,98,132,37.8,17,87.2,4.7,17.7,102.9,15.8,"spasms, muscle stiffness",Stiff Person Syndrome
+P0111,18,F,84,112,36.4,22,89.7,9.6,16.4,130.0,14.9,"dark urine, heart valve issues",Alkaptonuria
+P0112,26,F,104,140,39.1,19,94.4,4.7,11.1,97.7,29.9,"hearing loss, burning pain",Fabry Disease
+P0113,31,M,82,95,38.1,15,90.2,5.8,11.7,160.1,20.5,"hallucinations, memory loss",Fatal Familial Insomnia
+P0114,79,F,91,94,38.3,22,97.2,8.2,16.1,87.0,21.3,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0115,55,F,101,113,38.9,24,91.9,13.2,16.1,121.3,35.0,"burning pain, hearing loss",Fabry Disease
+P0116,42,F,63,98,38.1,16,91.8,10.9,10.4,130.8,17.2,"cognitive decline, seizures",Batten Disease
+P0117,47,F,113,133,38.9,16,87.4,12.2,16.6,118.1,30.4,"vision loss, seizures",Batten Disease
+P0118,58,M,115,109,37.1,17,87.6,12.7,10.4,149.4,12.5,"vision problems, tall stature",Marfan Syndrome
+P0119,75,F,90,134,36.2,27,87.9,10.4,15.2,112.9,6.1,"jaundice, fatigue",Wilson's Disease
+P0120,15,F,66,123,36.3,12,97.7,12.8,13.8,89.4,44.4,"bruising, bone pain",Gaucher's Disease
+P0121,36,M,86,143,37.7,26,88.8,13.4,13.8,196.0,30.4,"bone pain, bruising",Gaucher's Disease
+P0122,16,M,84,116,38.0,17,95.5,11.8,16.2,124.3,29.2,"bruising, bone pain",Gaucher's Disease
+P0123,59,F,107,101,37.1,30,97.0,5.3,17.1,89.6,34.6,"seizures, vision loss",Batten Disease
+P0124,7,M,98,155,39.5,28,88.1,9.2,14.5,112.2,44.9,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0125,38,M,97,151,36.3,28,95.5,14.5,16.8,197.0,42.5,"vision loss, cognitive decline",Batten Disease
+P0126,49,F,114,100,39.9,15,89.5,5.8,10.1,142.1,28.1,"seizures, vision loss",Batten Disease
+P0127,20,M,107,160,39.4,30,88.7,13.1,17.2,121.4,8.1,"vision problems, heart murmur",Marfan Syndrome
+P0128,13,M,72,152,36.2,25,96.1,9.2,16.4,122.1,46.4,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0129,14,M,76,124,39.5,14,91.6,6.2,10.8,183.3,5.4,"spasms, muscle stiffness",Stiff Person Syndrome
+P0130,52,F,68,135,38.4,16,97.4,11.9,16.4,145.7,34.5,"heart valve issues, joint pain",Alkaptonuria
+P0131,77,M,114,127,39.2,24,86.1,13.8,13.3,112.8,13.9,"fatigue, jaundice",Wilson's Disease
+P0132,16,M,120,91,37.2,29,92.4,9.4,17.4,178.8,21.9,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0133,25,M,107,114,37.2,23,93.1,7.8,16.9,140.8,42.6,"tall stature, heart murmur",Marfan Syndrome
+P0134,28,F,79,117,38.0,23,90.6,11.7,10.1,122.9,41.3,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0135,10,F,67,135,39.1,17,95.3,6.5,11.0,170.4,17.9,"bruising, bone pain",Gaucher's Disease
+P0136,54,F,80,100,36.7,25,93.3,12.5,12.4,184.0,48.5,"enlarged liver, bruising",Gaucher's Disease
+P0137,37,F,88,124,36.6,28,91.4,10.9,16.5,162.4,13.8,"bone pain, enlarged liver",Gaucher's Disease
+P0138,19,M,77,90,36.7,27,89.9,9.4,16.6,184.9,8.3,"burning pain, hearing loss",Fabry Disease
+P0139,41,M,111,154,37.2,19,93.3,12.4,10.4,118.9,17.0,"anxiety, spasms",Stiff Person Syndrome
+P0140,54,M,98,99,36.1,16,98.5,6.8,17.4,96.5,5.9,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0141,52,F,88,160,38.1,15,85.4,12.3,10.3,73.3,6.0,"joint pain, dark urine",Alkaptonuria
+P0142,51,F,90,119,36.8,21,92.2,6.7,11.7,184.2,4.3,"burning pain, hearing loss",Fabry Disease
+P0143,46,M,91,160,37.8,30,97.1,6.5,17.7,145.5,40.5,"hearing loss, sweating issues",Fabry Disease
+P0144,30,M,96,117,39.0,30,94.5,12.1,13.2,119.1,11.1,"joint pain, dark urine",Alkaptonuria
+P0145,60,F,65,104,37.5,25,87.4,14.0,15.9,135.4,37.1,"tremors, fatigue",Wilson's Disease
+P0146,80,F,106,99,39.5,19,98.6,4.4,10.5,100.7,19.3,"burning pain, hearing loss",Fabry Disease
+P0147,21,F,116,137,39.2,26,94.3,10.7,15.7,74.7,18.8,"spasms, muscle stiffness",Stiff Person Syndrome
+P0148,67,M,61,110,39.0,16,86.6,9.9,12.3,109.3,24.8,"spasms, muscle stiffness",Stiff Person Syndrome
+P0149,20,F,84,92,39.4,26,89.4,7.7,15.4,113.4,28.0,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0150,5,M,105,159,38.6,19,88.8,14.1,12.9,183.8,45.8,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0151,70,F,76,151,37.2,19,91.7,8.0,15.9,110.0,14.3,"tremors, fatigue",Wilson's Disease
+P0152,61,M,103,123,38.2,18,86.0,14.2,11.2,102.5,18.6,"fatigue, jaundice",Wilson's Disease
+P0153,68,F,83,154,39.4,18,96.0,14.7,15.8,81.8,19.1,"muscle stiffness, spasms",Stiff Person Syndrome
+P0154,5,M,117,139,37.6,30,96.5,5.9,11.0,75.0,5.9,"fatigue, tremors",Wilson's Disease
+P0155,41,F,101,97,36.9,21,90.1,5.5,11.5,154.8,0.9,"jaundice, tremors",Wilson's Disease
+P0156,38,M,60,129,38.3,23,89.0,5.9,12.8,189.3,47.4,"bruising, enlarged liver",Gaucher's Disease
+P0157,25,F,78,99,39.7,16,89.3,13.8,12.7,96.1,14.6,"dark urine, joint pain",Alkaptonuria
+P0158,75,M,85,91,37.8,25,97.5,14.5,13.0,148.7,39.4,"tremors, jaundice",Wilson's Disease
+P0159,25,F,71,155,37.7,21,96.0,14.8,14.8,107.1,2.6,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0160,42,M,61,123,37.3,26,85.7,4.3,14.3,113.9,33.9,"memory loss, hallucinations",Fatal Familial Insomnia
+P0161,72,M,74,96,39.8,16,99.1,14.9,12.7,157.7,30.7,"seizures, vision loss",Batten Disease
+P0162,18,M,96,152,37.4,21,93.4,10.5,14.9,117.1,14.4,"cognitive decline, vision loss",Batten Disease
+P0163,57,F,63,95,38.7,28,92.3,12.3,10.4,130.3,29.6,"jaundice, fatigue",Wilson's Disease
+P0164,16,M,73,160,36.4,12,97.6,4.4,16.6,174.1,10.4,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0165,33,F,92,147,39.9,12,88.5,11.4,10.6,178.8,24.0,"muscle stiffness, spasms",Stiff Person Syndrome
+P0166,42,F,67,92,36.4,29,88.5,9.5,16.3,183.0,47.8,"cognitive decline, vision loss",Batten Disease
+P0167,21,M,87,135,36.5,26,96.7,11.6,14.2,109.9,45.3,"dark urine, joint pain",Alkaptonuria
+P0168,57,F,100,143,38.1,13,88.7,13.6,12.9,147.2,43.3,"joint pain, dark urine",Alkaptonuria
+P0169,32,M,73,94,37.0,12,93.7,6.3,12.2,164.6,32.8,"heart murmur, tall stature",Marfan Syndrome
+P0170,57,M,60,92,37.7,27,87.8,10.4,17.3,171.5,17.7,"bruising, bone pain",Gaucher's Disease
+P0171,39,F,77,137,38.1,19,91.7,4.2,17.4,173.1,20.0,"bone pain, enlarged liver",Gaucher's Disease
+P0172,12,M,83,107,38.0,27,95.7,11.9,11.7,77.0,20.2,"enlarged liver, bruising",Gaucher's Disease
+P0173,7,F,86,136,38.1,14,91.5,14.6,15.4,180.7,6.8,"tall stature, heart murmur",Marfan Syndrome
+P0174,63,F,70,132,38.0,15,97.0,5.7,15.4,123.6,5.7,"joint pain, dark urine",Alkaptonuria
+P0175,12,F,85,104,39.5,15,90.9,11.4,14.0,173.6,25.4,"memory loss, hallucinations",Fatal Familial Insomnia
+P0176,60,F,61,146,36.9,29,90.6,12.2,17.2,104.1,16.5,"seizures, cognitive decline",Batten Disease
+P0177,17,M,120,143,36.2,21,87.6,12.3,16.9,120.8,24.0,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0178,27,F,117,100,38.7,12,91.4,10.6,17.8,154.1,49.3,"burning pain, hearing loss",Fabry Disease
+P0179,24,M,74,92,38.0,23,97.0,12.0,15.8,191.0,9.2,"fatigue, jaundice",Wilson's Disease
+P0180,10,M,119,134,37.3,25,86.0,13.9,17.6,179.2,12.7,"heart valve issues, joint pain",Alkaptonuria
+P0181,74,F,110,141,37.5,24,96.5,6.2,13.7,136.8,40.5,"cognitive decline, vision loss",Batten Disease
+P0182,78,M,112,108,36.8,20,89.9,12.3,12.9,161.6,23.2,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0183,13,M,78,92,38.8,25,88.3,8.8,12.0,129.6,21.6,"jaundice, tremors",Wilson's Disease
+P0184,25,F,106,156,39.0,20,94.7,14.7,12.9,193.1,38.9,"hallucinations, memory loss",Fatal Familial Insomnia
+P0185,12,M,63,109,36.5,18,92.1,10.3,15.9,146.7,6.7,"anxiety, spasms",Stiff Person Syndrome
+P0186,55,F,93,160,36.2,14,95.5,6.2,10.8,134.3,2.6,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0187,34,F,104,138,36.5,12,85.2,10.3,11.0,174.7,14.4,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0188,18,F,79,98,38.1,24,98.3,11.0,13.3,87.1,22.1,"memory loss, hallucinations",Fatal Familial Insomnia
+P0189,45,F,109,130,37.2,22,97.2,5.6,13.1,91.3,29.7,"heart murmur, vision problems",Marfan Syndrome
+P0190,38,M,119,143,40.0,17,95.6,5.6,12.5,154.0,28.6,"enlarged liver, bone pain",Gaucher's Disease
+P0191,79,M,95,134,37.2,14,95.7,12.0,15.5,120.6,43.4,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0192,79,F,74,140,39.1,27,91.9,7.1,17.6,138.0,39.0,"tremors, fatigue",Wilson's Disease
+P0193,9,M,99,142,37.9,28,98.8,4.4,13.5,196.1,8.5,"hallucinations, memory loss",Fatal Familial Insomnia
+P0194,46,F,65,151,37.7,23,85.5,10.6,10.0,112.5,45.6,"tall stature, vision problems",Marfan Syndrome
+P0195,76,F,80,93,36.4,13,95.5,12.4,13.3,169.0,29.9,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0196,10,F,88,158,38.4,21,90.6,11.9,15.8,93.3,41.7,"hallucinations, memory loss",Fatal Familial Insomnia
+P0197,52,F,110,131,39.3,30,93.5,7.3,13.9,83.3,49.5,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0198,67,M,64,111,37.1,12,99.1,4.1,14.3,101.8,16.6,"vision problems, tall stature",Marfan Syndrome
+P0199,42,F,84,135,38.6,14,88.0,9.4,15.4,147.8,11.9,"heart murmur, vision problems",Marfan Syndrome
+P0200,38,M,112,152,36.9,27,97.8,7.6,15.3,128.5,23.7,"heart murmur, vision problems",Marfan Syndrome
+P0201,41,F,74,148,39.4,15,88.7,9.0,15.5,147.9,23.0,"enlarged liver, bruising",Gaucher's Disease
+P0202,16,F,98,120,39.6,28,91.6,7.6,17.4,168.0,39.0,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0203,47,F,68,121,38.4,25,88.8,13.1,12.1,125.5,13.1,"hearing loss, burning pain",Fabry Disease
+P0204,68,F,82,109,37.6,13,98.4,12.7,14.3,187.1,6.4,"vision loss, cognitive decline",Batten Disease
+P0205,28,M,92,128,38.9,17,95.9,13.4,17.3,103.9,13.1,"vision problems, heart murmur",Marfan Syndrome
+P0206,67,F,61,109,37.8,28,88.4,6.8,16.5,88.0,49.0,"memory loss, hallucinations",Fatal Familial Insomnia
+P0207,76,M,76,95,37.0,19,97.5,4.7,17.4,187.8,13.8,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0208,64,F,69,91,36.2,21,85.7,6.7,16.4,180.3,18.8,"heart murmur, tall stature",Marfan Syndrome
+P0209,65,M,104,149,39.0,18,90.0,14.2,16.4,110.1,15.3,"jaundice, tremors",Wilson's Disease
+P0210,16,F,104,125,37.1,17,88.1,15.0,12.4,89.9,3.9,"spasms, anxiety",Stiff Person Syndrome
+P0211,79,M,69,97,36.8,22,95.6,9.7,15.4,97.2,29.7,"enlarged liver, bone pain",Gaucher's Disease
+P0212,76,F,66,157,37.0,12,91.8,7.6,12.7,101.0,7.0,"vision loss, seizures",Batten Disease
+P0213,45,M,94,121,38.1,27,95.1,4.8,11.3,86.2,28.9,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0214,60,M,115,118,36.3,14,91.3,13.8,13.6,176.2,0.8,"dark urine, heart valve issues",Alkaptonuria
+P0215,25,F,79,143,38.0,14,95.4,13.0,14.3,126.4,47.0,"vision problems, heart murmur",Marfan Syndrome
+P0216,48,F,118,105,37.0,15,93.4,10.1,12.0,143.9,37.6,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0217,48,M,111,134,38.0,13,93.3,9.2,17.2,97.8,1.3,"memory loss, hallucinations",Fatal Familial Insomnia
+P0218,28,M,82,121,38.1,15,96.3,5.5,15.9,188.5,39.0,"enlarged liver, bone pain",Gaucher's Disease
+P0219,51,F,91,98,36.5,14,88.0,9.4,14.1,183.7,11.3,"joint pain, heart valve issues",Alkaptonuria
+P0220,39,M,90,105,38.2,27,98.9,14.3,13.1,73.0,0.5,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0221,50,F,112,99,38.9,13,97.3,8.4,13.3,135.9,19.0,"seizures, vision loss",Batten Disease
+P0222,75,M,109,119,39.7,25,85.8,11.1,17.3,156.6,18.8,"vision problems, heart murmur",Marfan Syndrome
+P0223,77,F,96,94,38.1,26,94.1,13.0,14.2,175.8,41.3,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0224,22,M,84,145,39.6,23,87.3,9.9,17.3,179.1,47.8,"vision loss, cognitive decline",Batten Disease
+P0225,16,F,93,127,37.8,23,94.5,10.5,14.7,133.9,30.3,"enlarged liver, bruising",Gaucher's Disease
+P0226,22,F,71,152,38.8,12,99.6,9.9,17.2,186.7,2.7,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0227,74,F,119,148,37.3,14,89.5,7.3,13.1,171.6,26.4,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0228,28,M,76,128,36.8,18,86.2,14.9,16.1,109.3,4.2,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0229,36,F,115,107,37.2,25,87.9,13.4,16.6,92.3,28.7,"hallucinations, memory loss",Fatal Familial Insomnia
+P0230,12,M,69,153,38.9,26,97.8,8.6,10.1,101.0,37.6,"seizures, cognitive decline",Batten Disease
+P0231,64,F,105,118,38.4,12,98.8,14.1,11.6,101.2,23.0,"seizures, vision loss",Batten Disease
+P0232,58,M,80,98,37.3,29,98.6,6.0,12.1,117.2,40.5,"spasms, anxiety",Stiff Person Syndrome
+P0233,23,F,68,154,39.0,16,97.5,7.4,14.1,178.7,15.0,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0234,66,M,118,94,39.6,16,86.9,9.1,10.5,164.6,45.5,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0235,65,M,78,156,36.5,15,88.8,6.9,18.0,141.6,47.2,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0236,37,F,109,134,40.0,22,91.5,8.6,10.2,102.5,44.0,"bone pain, enlarged liver",Gaucher's Disease
+P0237,57,F,83,141,36.5,26,96.1,4.4,15.0,130.8,38.0,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0238,77,F,71,95,37.0,12,94.2,13.9,17.8,73.7,36.2,"fatigue, tremors",Wilson's Disease
+P0239,31,M,62,147,39.8,16,86.4,13.8,14.3,183.0,35.0,"tremors, fatigue",Wilson's Disease
+P0240,46,M,80,138,38.6,18,96.9,9.2,17.8,111.9,13.9,"heart valve issues, dark urine",Alkaptonuria
+P0241,34,F,65,154,39.6,21,92.4,10.1,11.9,125.0,9.5,"sweating issues, hearing loss",Fabry Disease
+P0242,41,M,83,141,39.6,21,89.5,7.3,14.6,81.5,20.0,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0243,22,M,67,154,37.5,16,88.1,5.4,11.0,108.1,33.1,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0244,6,F,63,156,37.8,15,96.8,7.2,12.1,71.2,43.7,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0245,8,M,119,97,38.8,20,98.9,6.0,16.5,196.2,18.0,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0246,45,F,74,97,37.7,26,96.4,12.5,16.4,189.3,22.9,"enlarged liver, bruising",Gaucher's Disease
+P0247,22,F,107,109,36.1,29,89.2,4.9,12.8,106.4,2.5,"memory loss, hallucinations",Fatal Familial Insomnia
+P0248,60,F,102,148,37.7,25,89.0,13.6,14.6,159.6,13.1,"fatigue, jaundice",Wilson's Disease
+P0249,46,F,62,114,37.2,14,86.3,11.3,17.7,128.6,21.6,"spasms, anxiety",Stiff Person Syndrome
+P0250,80,F,96,155,39.7,30,96.4,10.2,17.9,74.5,10.3,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0251,50,F,91,101,37.3,12,95.9,12.0,14.7,191.7,31.9,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0252,25,F,120,158,37.6,23,95.7,5.5,13.8,152.7,28.6,"tremors, fatigue",Wilson's Disease
+P0253,72,F,106,155,36.6,12,98.5,9.0,16.2,160.0,48.5,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0254,25,F,68,94,38.7,21,99.9,5.3,15.3,95.7,22.4,"jaundice, fatigue",Wilson's Disease
+P0255,61,F,63,118,38.1,18,91.0,11.6,11.7,170.0,17.4,"muscle stiffness, spasms",Stiff Person Syndrome
+P0256,53,M,96,128,36.2,30,97.5,10.0,15.4,153.6,35.8,"heart murmur, vision problems",Marfan Syndrome
+P0257,9,F,82,122,36.2,26,95.0,5.3,13.9,112.0,29.7,"tremors, fatigue",Wilson's Disease
+P0258,69,F,88,149,36.7,12,93.0,13.4,17.3,78.1,8.8,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0259,61,F,103,146,39.2,21,95.4,7.4,12.5,77.8,24.4,"cognitive decline, vision loss",Batten Disease
+P0260,5,M,77,130,36.6,20,88.8,4.4,14.2,173.3,26.4,"spasms, anxiety",Stiff Person Syndrome
+P0261,35,M,63,126,36.5,18,89.6,11.2,12.7,146.4,11.6,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0262,48,F,92,129,38.3,29,95.5,7.5,12.9,192.0,37.4,"fatigue, jaundice",Wilson's Disease
+P0263,38,F,98,152,37.2,14,92.2,5.3,13.5,149.2,3.5,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0264,57,F,70,94,38.0,27,87.4,14.0,17.1,197.9,1.1,"hearing loss, sweating issues",Fabry Disease
+P0265,40,F,101,151,38.8,21,92.3,5.6,13.7,122.8,20.3,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0266,72,F,106,93,37.0,26,95.0,8.1,11.9,117.9,47.3,"dark urine, joint pain",Alkaptonuria
+P0267,60,F,77,92,38.9,25,89.0,14.3,12.1,96.5,31.5,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0268,59,F,116,101,38.7,17,99.3,7.4,16.2,151.2,25.5,"burning pain, sweating issues",Fabry Disease
+P0269,42,M,82,140,37.8,25,87.0,13.7,11.9,198.2,6.7,"muscle stiffness, spasms",Stiff Person Syndrome
+P0270,72,F,78,95,39.5,20,86.9,8.9,13.5,175.4,41.3,"heart valve issues, joint pain",Alkaptonuria
+P0271,56,M,109,124,39.6,22,87.8,13.5,11.2,155.5,22.6,"tremors, fatigue",Wilson's Disease
+P0272,68,M,68,148,36.3,20,90.3,6.0,13.9,153.1,37.3,"seizures, vision loss",Batten Disease
+P0273,46,M,66,145,39.6,28,87.1,14.9,15.9,123.6,29.3,"hallucinations, memory loss",Fatal Familial Insomnia
+P0274,25,M,80,125,36.6,14,92.0,14.2,11.3,169.9,30.1,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0275,32,F,78,131,39.9,18,93.6,10.3,15.4,197.4,13.5,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0276,30,F,111,130,36.6,21,92.2,10.6,13.4,189.0,24.5,"tall stature, heart murmur",Marfan Syndrome
+P0277,29,F,82,105,36.8,18,90.6,12.7,14.1,132.6,34.2,"enlarged liver, bruising",Gaucher's Disease
+P0278,67,M,97,145,38.6,25,94.7,14.6,12.7,183.8,30.8,"memory loss, hallucinations",Fatal Familial Insomnia
+P0279,42,F,95,145,39.8,21,88.6,5.5,14.8,188.5,31.1,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0280,47,M,76,144,38.1,25,94.0,5.3,13.2,192.3,13.6,"bruising, bone pain",Gaucher's Disease
+P0281,44,F,82,109,36.2,22,98.1,8.6,16.3,89.9,38.4,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0282,51,M,78,121,38.0,15,86.0,10.5,10.6,89.3,15.6,"sweating issues, burning pain",Fabry Disease
+P0283,36,F,76,139,38.2,27,87.4,13.3,17.5,152.3,33.8,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0284,20,M,117,149,37.4,27,93.6,13.8,10.7,163.5,15.9,"cognitive decline, vision loss",Batten Disease
+P0285,43,F,94,136,36.6,16,99.2,10.5,11.5,161.3,37.3,"heart murmur, vision problems",Marfan Syndrome
+P0286,7,F,90,100,39.3,17,89.6,14.4,13.3,194.1,24.3,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0287,78,F,120,147,39.0,14,89.3,5.0,15.0,189.1,5.0,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0288,76,M,86,110,38.1,17,93.6,12.1,14.1,96.3,39.6,"anxiety, spasms",Stiff Person Syndrome
+P0289,8,M,71,116,36.8,26,89.0,9.6,15.9,115.2,8.3,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0290,61,F,61,140,38.6,19,85.2,15.0,12.1,92.0,9.9,"bone pain, enlarged liver",Gaucher's Disease
+P0291,9,F,120,131,36.3,21,95.6,11.3,14.4,193.4,29.2,"seizures, cognitive decline",Batten Disease
+P0292,57,M,90,132,36.4,19,86.6,13.0,14.6,75.8,7.5,"heart murmur, vision problems",Marfan Syndrome
+P0293,58,M,98,154,39.3,30,85.4,12.6,15.3,127.2,1.4,"heart valve issues, joint pain",Alkaptonuria
+P0294,58,M,114,108,39.9,14,93.8,14.0,16.2,140.4,31.1,"spasms, anxiety",Stiff Person Syndrome
+P0295,48,F,88,144,38.0,14,87.3,7.0,16.1,109.4,23.5,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0296,16,F,63,144,36.9,28,86.6,7.7,12.0,185.6,36.8,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0297,79,M,116,117,37.8,27,97.8,13.2,11.2,71.3,17.5,"jaundice, tremors",Wilson's Disease
+P0298,10,M,93,119,37.1,25,93.7,5.6,12.7,147.6,17.8,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0299,46,F,84,97,36.6,12,98.9,12.4,16.1,115.2,35.5,"hallucinations, memory loss",Fatal Familial Insomnia
+P0300,46,F,63,157,37.8,18,99.9,7.0,11.8,106.9,10.3,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0301,13,F,104,160,39.6,29,98.7,7.4,10.6,82.2,47.3,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0302,32,M,70,133,36.4,30,86.1,12.5,12.1,94.0,43.6,"seizures, cognitive decline",Batten Disease
+P0303,64,M,61,129,39.9,26,87.0,9.4,10.9,187.6,8.1,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0304,75,M,71,90,38.3,14,96.2,13.9,14.6,103.5,49.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0305,16,F,104,94,36.7,21,92.1,7.1,10.5,157.1,10.3,"vision problems, heart murmur",Marfan Syndrome
+P0306,39,M,89,109,39.4,17,92.3,11.4,14.3,135.5,18.8,"spasms, muscle stiffness",Stiff Person Syndrome
+P0307,75,F,73,111,37.5,27,96.4,13.5,16.5,85.7,19.4,"cognitive decline, vision loss",Batten Disease
+P0308,73,F,81,145,39.7,14,99.8,11.4,12.7,193.9,42.6,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0309,17,F,101,152,36.1,29,88.6,6.2,14.9,76.9,19.2,"spasms, anxiety",Stiff Person Syndrome
+P0310,27,M,74,130,38.6,26,87.4,12.4,17.5,191.3,37.1,"spasms, anxiety",Stiff Person Syndrome
+P0311,46,F,90,157,36.7,27,94.8,14.1,11.7,151.3,19.5,"jaundice, tremors",Wilson's Disease
+P0312,13,M,83,160,37.5,20,98.6,4.8,14.2,144.6,19.8,"seizures, cognitive decline",Batten Disease
+P0313,41,F,75,141,36.6,20,97.5,14.1,14.4,154.8,37.2,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0314,63,F,113,114,38.4,21,97.4,11.2,17.3,135.2,2.3,"dark urine, heart valve issues",Alkaptonuria
+P0315,19,F,60,120,39.7,12,90.6,11.4,15.8,193.0,28.4,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0316,65,M,86,96,37.6,20,87.5,12.2,12.3,152.1,21.0,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0317,9,F,117,130,39.6,26,92.3,9.3,16.5,121.3,12.7,"muscle stiffness, spasms",Stiff Person Syndrome
+P0318,40,F,95,121,36.9,28,97.1,13.0,17.4,166.3,13.4,"vision loss, cognitive decline",Batten Disease
+P0319,80,F,101,135,39.3,15,93.6,14.7,13.2,141.1,19.8,"heart valve issues, joint pain",Alkaptonuria
+P0320,62,M,93,158,39.1,19,86.4,9.5,14.5,82.9,11.1,"heart murmur, tall stature",Marfan Syndrome
+P0321,21,M,106,139,39.8,20,92.4,14.8,15.0,128.4,7.2,"enlarged liver, bone pain",Gaucher's Disease
+P0322,76,F,75,137,36.2,30,95.2,7.2,17.2,183.3,39.0,"heart valve issues, dark urine",Alkaptonuria
+P0323,17,M,77,147,37.4,20,85.3,12.0,14.4,136.9,32.6,"joint pain, heart valve issues",Alkaptonuria
+P0324,69,F,114,130,38.5,14,94.8,7.9,13.8,130.8,38.6,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0325,13,F,94,158,37.9,12,92.2,8.4,17.4,81.3,25.7,"fatigue, jaundice",Wilson's Disease
+P0326,24,M,87,99,38.1,17,97.2,12.2,15.0,107.4,4.4,"sweating issues, hearing loss",Fabry Disease
+P0327,40,F,90,142,37.9,15,91.3,5.6,16.2,160.6,49.8,"memory loss, hallucinations",Fatal Familial Insomnia
+P0328,51,F,118,132,36.5,16,90.8,14.0,16.6,88.5,28.0,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0329,13,M,62,146,36.6,27,87.1,6.6,17.1,124.8,33.3,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0330,22,F,109,148,37.5,15,96.6,5.7,17.9,87.6,22.6,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0331,19,F,103,95,39.3,13,92.6,12.1,10.8,122.6,21.9,"sweating issues, burning pain",Fabry Disease
+P0332,76,M,61,114,38.6,16,88.4,6.7,14.8,176.4,11.5,"jaundice, tremors",Wilson's Disease
+P0333,22,M,63,160,38.6,21,89.5,14.7,10.5,153.2,35.6,"memory loss, hallucinations",Fatal Familial Insomnia
+P0334,68,F,67,99,39.7,20,98.3,6.3,11.5,146.2,42.0,"vision problems, tall stature",Marfan Syndrome
+P0335,19,F,106,126,37.2,30,98.5,12.0,15.3,96.6,29.1,"cognitive decline, seizures",Batten Disease
+P0336,21,F,117,124,38.6,21,87.2,6.8,15.5,98.1,34.7,"tall stature, heart murmur",Marfan Syndrome
+P0337,79,M,84,126,36.0,19,85.9,5.9,14.6,194.1,13.2,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0338,77,M,88,93,39.1,19,87.6,7.0,10.1,146.5,44.6,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0339,34,F,99,139,36.9,15,85.5,8.3,14.6,178.6,11.9,"sweating issues, burning pain",Fabry Disease
+P0340,23,F,99,117,37.9,28,86.0,14.3,12.9,137.3,31.2,"heart murmur, vision problems",Marfan Syndrome
+P0341,62,M,95,110,39.9,28,99.6,14.8,12.8,125.4,40.4,"hallucinations, memory loss",Fatal Familial Insomnia
+P0342,48,M,120,106,39.1,21,94.1,5.0,17.0,157.5,43.3,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0343,27,M,113,142,37.9,26,93.2,6.2,13.1,117.6,11.6,"burning pain, sweating issues",Fabry Disease
+P0344,33,F,65,94,38.2,12,90.4,14.3,10.1,77.8,28.6,"hearing loss, sweating issues",Fabry Disease
+P0345,51,F,61,148,38.4,17,90.9,8.5,13.4,74.9,4.1,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0346,23,F,120,121,37.6,21,86.7,11.7,12.3,70.8,18.0,"hallucinations, memory loss",Fatal Familial Insomnia
+P0347,54,F,94,159,36.3,25,95.0,9.2,16.0,171.6,34.5,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0348,72,F,62,141,38.2,13,87.6,4.1,17.9,200.0,29.9,"tall stature, vision problems",Marfan Syndrome
+P0349,32,F,118,152,39.6,12,90.2,14.6,11.7,179.3,25.9,"tremors, fatigue",Wilson's Disease
+P0350,39,F,116,125,37.2,18,89.2,13.8,11.5,113.5,28.7,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0351,34,M,89,118,37.2,18,93.9,11.7,10.9,158.1,38.2,"bruising, bone pain",Gaucher's Disease
+P0352,61,M,102,143,39.8,14,92.4,9.6,12.0,98.7,17.5,"memory loss, hallucinations",Fatal Familial Insomnia
+P0353,52,M,94,116,38.8,20,97.4,5.8,11.1,149.1,1.1,"bone pain, enlarged liver",Gaucher's Disease
+P0354,9,M,79,110,36.7,30,91.3,13.9,13.0,101.9,21.0,"tall stature, vision problems",Marfan Syndrome
+P0355,40,F,97,128,39.0,18,93.8,11.1,15.9,170.5,27.5,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0356,30,F,89,98,36.1,26,97.1,7.7,14.7,194.6,36.1,"hearing loss, burning pain",Fabry Disease
+P0357,11,F,84,135,38.1,13,92.3,5.9,14.8,90.1,15.6,"vision loss, seizures",Batten Disease
+P0358,38,M,84,96,38.5,15,92.3,10.2,14.6,141.9,8.1,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0359,19,F,112,137,39.6,23,91.0,4.9,11.7,155.5,21.4,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0360,74,F,96,115,38.8,25,89.4,4.3,16.1,118.3,23.0,"tall stature, vision problems",Marfan Syndrome
+P0361,55,M,116,121,36.0,16,96.2,9.1,11.9,188.2,49.0,"memory loss, hallucinations",Fatal Familial Insomnia
+P0362,42,M,88,128,37.2,28,92.2,8.2,14.2,109.5,30.2,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0363,68,F,98,92,39.8,17,95.4,5.2,10.4,91.6,43.6,"anxiety, spasms",Stiff Person Syndrome
+P0364,35,F,87,90,39.2,30,95.4,10.4,11.7,153.3,43.5,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0365,43,F,118,131,36.7,18,100.0,6.8,13.5,154.4,8.0,"tall stature, vision problems",Marfan Syndrome
+P0366,40,F,103,132,36.8,15,93.8,9.8,14.3,72.3,48.2,"tremors, fatigue",Wilson's Disease
+P0367,42,F,88,110,36.1,24,93.8,8.9,10.5,92.9,41.1,"fatigue, jaundice",Wilson's Disease
+P0368,64,M,82,100,37.6,15,94.0,9.4,13.9,176.6,26.1,"vision problems, heart murmur",Marfan Syndrome
+P0369,36,F,94,156,36.3,27,90.0,10.2,13.2,117.3,41.6,"fatigue, jaundice",Wilson's Disease
+P0370,45,F,113,129,37.9,20,95.9,15.0,15.6,155.9,39.9,"heart murmur, vision problems",Marfan Syndrome
+P0371,8,F,77,123,37.0,12,86.2,7.1,16.2,148.2,12.2,"enlarged liver, bruising",Gaucher's Disease
+P0372,75,M,75,113,37.2,27,98.1,13.6,10.2,181.8,10.0,"dark urine, heart valve issues",Alkaptonuria
+P0373,15,F,69,115,36.2,26,96.0,10.3,16.7,165.8,4.6,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0374,79,M,72,147,39.7,23,99.0,14.7,11.7,189.5,13.7,"spasms, muscle stiffness",Stiff Person Syndrome
+P0375,47,F,64,113,37.0,15,90.0,8.6,10.5,104.3,21.5,"vision problems, tall stature",Marfan Syndrome
+P0376,56,M,66,104,38.5,30,96.2,12.6,10.6,198.3,4.5,"jaundice, fatigue",Wilson's Disease
+P0377,37,M,67,152,38.4,29,91.7,4.4,17.0,86.4,5.4,"jaundice, fatigue",Wilson's Disease
+P0378,19,F,71,91,36.1,25,97.9,7.6,10.2,156.9,13.8,"vision loss, seizures",Batten Disease
+P0379,19,F,85,119,37.8,12,98.7,11.7,16.8,139.0,49.6,"tall stature, vision problems",Marfan Syndrome
+P0380,8,M,105,104,36.7,19,87.1,12.8,10.7,111.0,24.5,"hearing loss, sweating issues",Fabry Disease
+P0381,23,M,72,121,38.4,19,92.6,10.9,13.6,113.3,47.4,"sweating issues, hearing loss",Fabry Disease
+P0382,76,F,75,95,39.0,18,88.9,12.8,12.9,157.4,16.6,"joint pain, heart valve issues",Alkaptonuria
+P0383,57,M,104,114,39.4,27,85.8,8.2,15.4,188.3,8.7,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0384,67,M,91,144,38.2,26,85.0,8.5,13.4,138.3,25.3,"hearing loss, sweating issues",Fabry Disease
+P0385,45,F,103,98,36.0,22,94.7,7.7,17.6,147.4,48.5,"tall stature, vision problems",Marfan Syndrome
+P0386,53,M,107,141,38.3,13,92.1,7.3,10.9,86.8,5.0,"tall stature, vision problems",Marfan Syndrome
+P0387,19,M,93,139,36.9,27,95.3,13.0,10.1,149.4,13.7,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0388,60,F,112,134,38.0,21,95.4,4.9,10.3,178.1,38.8,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0389,8,M,104,134,36.7,19,90.9,6.0,10.9,160.0,39.3,"fatigue, tremors",Wilson's Disease
+P0390,39,F,92,156,39.0,30,91.1,6.8,16.8,71.2,9.5,"spasms, anxiety",Stiff Person Syndrome
+P0391,71,F,96,109,37.5,17,87.5,8.0,10.9,100.6,41.9,"vision loss, cognitive decline",Batten Disease
+P0392,52,M,119,98,39.0,30,98.3,8.9,13.4,190.5,42.2,"tall stature, heart murmur",Marfan Syndrome
+P0393,27,M,100,130,39.7,14,86.2,7.8,17.7,72.7,19.6,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0394,13,F,89,108,37.1,19,85.5,8.7,10.5,124.8,34.3,"hallucinations, memory loss",Fatal Familial Insomnia
+P0395,61,M,112,144,36.1,20,88.6,11.4,16.0,157.9,23.6,"vision loss, cognitive decline",Batten Disease
+P0396,24,M,90,91,37.7,19,91.3,12.4,12.6,108.7,0.8,"enlarged liver, bone pain",Gaucher's Disease
+P0397,80,M,84,136,39.6,14,86.7,13.2,10.1,98.0,19.5,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0398,74,F,78,110,38.5,22,87.4,11.6,15.3,135.5,1.4,"vision problems, heart murmur",Marfan Syndrome
+P0399,7,M,115,120,36.3,17,87.2,11.3,14.0,174.8,31.2,"cognitive decline, vision loss",Batten Disease
+P0400,10,M,107,158,38.5,22,86.4,11.6,12.1,90.0,5.4,"bruising, enlarged liver",Gaucher's Disease
+P0401,54,F,61,121,38.4,15,94.3,10.5,10.2,92.4,43.2,"bruising, bone pain",Gaucher's Disease
+P0402,56,M,95,115,39.4,23,99.0,6.1,10.4,138.4,30.8,"hearing loss, burning pain",Fabry Disease
+P0403,34,F,95,117,36.9,22,97.0,7.1,16.4,132.7,25.8,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0404,59,M,113,90,39.4,13,94.8,9.0,10.4,114.4,15.5,"muscle stiffness, spasms",Stiff Person Syndrome
+P0405,36,M,90,98,36.5,23,92.9,6.8,15.5,156.5,22.1,"seizures, vision loss",Batten Disease
+P0406,42,F,100,133,37.4,27,85.3,4.9,13.0,117.8,1.1,"hearing loss, burning pain",Fabry Disease
+P0407,51,F,77,152,38.7,21,97.0,5.4,15.2,197.5,44.8,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0408,72,M,82,114,39.8,26,87.4,7.8,12.2,192.6,6.8,"vision loss, cognitive decline",Batten Disease
+P0409,45,F,117,95,37.8,26,93.4,7.1,12.2,194.6,27.0,"joint pain, heart valve issues",Alkaptonuria
+P0410,7,M,115,134,39.3,17,87.3,6.5,13.8,199.7,12.5,"sweating issues, hearing loss",Fabry Disease
+P0411,27,M,93,157,38.7,27,90.0,9.1,13.6,179.2,40.0,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0412,38,M,75,95,36.0,20,91.2,7.0,17.3,127.3,7.1,"hallucinations, memory loss",Fatal Familial Insomnia
+P0413,51,F,81,140,37.6,25,88.8,9.6,10.6,152.5,4.5,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0414,72,M,92,141,37.2,18,94.9,7.0,12.6,114.3,14.7,"sweating issues, hearing loss",Fabry Disease
+P0415,26,M,109,126,37.6,12,85.6,13.4,12.7,149.8,40.7,"fatigue, tremors",Wilson's Disease
+P0416,39,F,78,127,37.3,20,91.8,4.4,14.2,71.4,41.5,"heart murmur, tall stature",Marfan Syndrome
+P0417,55,F,85,140,38.4,15,86.0,8.3,14.2,109.2,48.4,"burning pain, hearing loss",Fabry Disease
+P0418,14,M,75,122,38.5,29,87.1,12.1,12.2,121.7,11.3,"vision problems, heart murmur",Marfan Syndrome
+P0419,66,M,85,156,38.3,21,98.5,14.1,13.8,177.5,26.4,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0420,79,F,88,128,37.2,14,90.8,12.5,14.5,183.5,6.1,"seizures, vision loss",Batten Disease
+P0421,73,M,118,135,39.2,30,86.8,13.1,11.0,94.4,13.6,"jaundice, fatigue",Wilson's Disease
+P0422,56,M,69,142,39.9,22,99.5,5.2,13.1,111.7,10.7,"vision problems, tall stature",Marfan Syndrome
+P0423,53,M,66,113,39.7,24,94.6,14.7,14.2,175.8,32.3,"joint pain, dark urine",Alkaptonuria
+P0424,41,F,100,159,39.3,26,99.2,13.6,15.6,169.8,13.8,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0425,23,F,91,142,37.8,27,91.9,4.5,14.5,102.4,11.3,"enlarged liver, bone pain",Gaucher's Disease
+P0426,44,F,111,120,38.9,12,97.7,14.8,18.0,170.4,15.2,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0427,72,F,111,128,38.1,24,97.0,4.9,12.0,75.6,18.5,"dark urine, joint pain",Alkaptonuria
+P0428,69,M,104,145,39.7,28,90.0,9.1,14.8,90.5,28.7,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0429,52,F,74,92,39.9,20,90.1,11.3,13.3,109.5,33.6,"heart valve issues, joint pain",Alkaptonuria
+P0430,13,M,106,151,39.5,22,86.4,12.0,16.3,80.1,44.0,"vision problems, tall stature",Marfan Syndrome
+P0431,14,F,103,104,39.1,23,88.9,6.1,15.9,122.9,20.4,"sweating issues, burning pain",Fabry Disease
+P0432,10,M,78,101,38.9,29,86.3,9.6,17.2,109.7,11.1,"vision problems, heart murmur",Marfan Syndrome
+P0433,39,M,115,124,39.6,25,96.1,11.7,16.9,172.2,32.6,"spasms, muscle stiffness",Stiff Person Syndrome
+P0434,48,M,103,145,36.6,17,99.7,11.2,15.3,113.4,28.2,"seizures, vision loss",Batten Disease
+P0435,66,M,85,115,39.2,14,87.7,14.2,14.1,181.0,9.7,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0436,43,M,107,101,38.9,20,97.6,9.6,13.0,122.1,46.6,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0437,6,F,115,124,38.8,13,97.1,13.5,14.8,190.8,9.5,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0438,36,M,78,156,39.8,21,92.5,7.8,14.3,119.3,37.5,"bruising, enlarged liver",Gaucher's Disease
+P0439,42,M,106,127,39.7,28,87.8,7.1,12.8,179.7,32.3,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0440,15,M,83,127,37.9,26,94.9,5.8,15.7,150.2,37.0,"bone pain, enlarged liver",Gaucher's Disease
+P0441,73,M,106,153,36.7,19,97.7,4.9,11.6,197.7,45.9,"memory loss, hallucinations",Fatal Familial Insomnia
+P0442,63,F,105,94,39.3,19,98.4,14.9,12.2,122.7,12.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0443,63,M,92,102,39.9,18,97.9,8.1,12.6,172.6,2.4,"bone pain, bruising",Gaucher's Disease
+P0444,60,F,98,119,36.8,28,89.7,14.8,16.8,151.5,33.9,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0445,10,M,100,157,37.7,25,98.8,10.7,15.4,196.8,5.2,"seizures, vision loss",Batten Disease
+P0446,41,M,105,129,38.8,17,92.5,7.5,11.4,199.0,15.5,"joint pain, heart valve issues",Alkaptonuria
+P0447,63,F,101,112,36.2,15,90.9,13.3,13.2,150.0,29.4,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0448,68,M,101,119,37.3,21,87.8,10.1,10.7,180.9,10.9,"jaundice, fatigue",Wilson's Disease
+P0449,10,F,63,147,38.8,16,97.8,14.2,13.4,144.1,1.7,"anxiety, spasms",Stiff Person Syndrome
+P0450,50,M,63,111,38.2,24,88.1,8.4,12.1,147.1,11.1,"enlarged liver, bruising",Gaucher's Disease
+P0451,75,F,98,140,38.3,29,96.6,13.9,10.6,87.9,24.1,"bone pain, enlarged liver",Gaucher's Disease
+P0452,69,M,89,102,39.0,14,91.4,13.9,16.2,73.7,15.2,"bruising, bone pain",Gaucher's Disease
+P0453,32,M,102,148,36.6,22,92.3,14.3,16.5,184.4,44.8,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0454,38,F,117,118,37.6,15,89.9,11.9,12.1,195.7,1.4,"vision loss, seizures",Batten Disease
+P0455,20,M,99,99,39.2,18,96.6,13.0,14.8,175.4,44.8,"hearing loss, burning pain",Fabry Disease
+P0456,8,F,81,124,38.8,12,95.4,8.6,14.0,158.8,6.1,"enlarged liver, bruising",Gaucher's Disease
+P0457,51,F,106,108,36.4,21,91.1,5.3,12.3,96.6,34.0,"spasms, muscle stiffness",Stiff Person Syndrome
+P0458,62,M,94,115,39.5,24,87.0,7.3,17.4,119.2,20.5,"enlarged liver, bone pain",Gaucher's Disease
+P0459,29,F,82,135,39.2,13,85.7,11.7,15.8,113.4,23.4,"heart murmur, vision problems",Marfan Syndrome
+P0460,12,M,82,140,37.8,16,99.9,5.9,14.2,141.3,46.5,"memory loss, hallucinations",Fatal Familial Insomnia
+P0461,36,M,86,130,39.8,12,93.2,5.5,15.8,76.8,31.8,"memory loss, hallucinations",Fatal Familial Insomnia
+P0462,53,F,112,147,39.4,14,89.2,4.2,16.2,154.1,41.6,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0463,60,F,60,122,39.4,29,90.6,5.6,12.6,92.7,40.9,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0464,51,F,60,141,36.7,26,86.8,7.1,15.7,151.1,46.2,"enlarged liver, bone pain",Gaucher's Disease
+P0465,10,M,60,100,38.9,15,85.3,8.7,18.0,70.8,17.8,"enlarged liver, bruising",Gaucher's Disease
+P0466,13,F,83,109,37.6,17,94.3,11.9,13.4,127.3,41.1,"joint pain, dark urine",Alkaptonuria
+P0467,19,F,99,146,39.1,14,95.1,5.9,11.6,172.3,46.8,"dark urine, joint pain",Alkaptonuria
+P0468,60,F,102,110,38.3,25,99.9,13.6,15.6,98.0,6.0,"bone pain, bruising",Gaucher's Disease
+P0469,75,M,119,100,38.2,23,90.8,13.4,15.8,97.6,9.3,"burning pain, sweating issues",Fabry Disease
+P0470,5,F,70,91,37.7,28,90.4,4.2,11.2,89.1,26.8,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0471,74,F,83,128,37.2,30,95.2,9.9,10.7,144.9,43.8,"dark urine, heart valve issues",Alkaptonuria
+P0472,35,M,92,135,39.1,15,88.7,6.8,14.8,77.6,14.7,"dark urine, joint pain",Alkaptonuria
+P0473,21,M,60,91,36.6,29,94.8,10.8,13.4,134.5,26.9,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0474,63,F,118,94,36.5,26,92.2,13.5,12.4,118.5,13.5,"jaundice, tremors",Wilson's Disease
+P0475,10,M,70,153,37.6,18,86.0,10.4,11.0,176.3,33.2,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0476,46,F,87,122,37.5,16,88.9,4.3,16.4,152.6,23.6,"muscle stiffness, spasms",Stiff Person Syndrome
+P0477,20,F,92,125,38.2,29,99.8,8.3,10.5,121.0,23.0,"heart murmur, vision problems",Marfan Syndrome
+P0478,19,M,92,95,38.6,17,86.7,14.4,10.8,125.9,11.6,"sweating issues, burning pain",Fabry Disease
+P0479,33,F,112,100,36.8,20,89.3,11.4,15.0,165.9,37.0,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0480,61,M,85,160,38.3,27,98.5,6.6,12.4,158.1,46.9,"hearing loss, sweating issues",Fabry Disease
+P0481,56,F,82,115,37.1,25,93.5,13.7,14.5,150.8,27.1,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0482,40,F,111,94,36.4,15,98.6,5.9,12.2,124.4,31.9,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0483,17,M,100,102,38.5,15,87.5,13.6,15.9,145.3,3.8,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0484,5,M,116,100,36.1,29,90.5,13.5,14.9,122.0,45.7,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0485,78,M,106,100,36.0,30,89.0,12.5,15.6,168.8,41.5,"heart murmur, vision problems",Marfan Syndrome
+P0486,27,M,60,129,36.6,17,86.8,5.1,11.2,72.6,3.7,"muscle stiffness, spasms",Stiff Person Syndrome
+P0487,64,F,120,135,37.4,16,94.9,13.5,12.3,151.5,25.7,"vision loss, cognitive decline",Batten Disease
+P0488,11,M,61,135,36.6,22,86.1,14.2,18.0,163.9,3.9,"anxiety, spasms",Stiff Person Syndrome
+P0489,39,F,70,126,39.4,17,92.2,7.6,13.0,78.7,12.4,"burning pain, hearing loss",Fabry Disease
+P0490,23,F,113,153,36.9,18,92.1,9.3,16.3,155.0,9.4,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0491,60,M,60,141,36.8,19,93.9,6.3,14.4,100.7,19.4,"joint pain, dark urine",Alkaptonuria
+P0492,48,M,110,133,36.9,21,85.7,10.7,17.3,94.0,45.5,"jaundice, tremors",Wilson's Disease
+P0493,20,F,92,157,37.2,19,86.3,13.4,14.3,176.4,2.2,"joint pain, heart valve issues",Alkaptonuria
+P0494,20,M,74,120,39.4,29,86.4,8.4,12.7,191.1,9.3,"bruising, bone pain",Gaucher's Disease
+P0495,11,F,97,134,38.7,13,85.1,10.5,13.8,183.1,23.1,"heart murmur, vision problems",Marfan Syndrome
+P0496,26,M,74,109,38.3,23,93.4,13.6,16.7,73.8,44.9,"fatigue, tremors",Wilson's Disease
+P0497,79,M,72,140,39.4,12,97.7,12.8,12.2,197.0,20.5,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0498,76,F,90,141,36.8,22,89.1,10.8,14.4,135.8,46.0,"vision loss, seizures",Batten Disease
+P0499,17,F,99,122,39.5,22,99.3,7.8,12.1,158.9,24.2,"spasms, muscle stiffness",Stiff Person Syndrome
+P0500,64,F,109,143,37.2,24,97.2,7.0,11.7,189.3,12.6,"bruising, enlarged liver",Gaucher's Disease
+P0501,54,M,80,146,39.6,19,98.6,4.8,11.9,72.8,14.1,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0502,75,M,118,94,36.5,19,87.7,11.3,12.7,100.5,20.6,"burning pain, hearing loss",Fabry Disease
+P0503,21,M,93,142,37.8,21,89.9,8.1,13.2,167.6,25.0,"hearing loss, burning pain",Fabry Disease
+P0504,59,F,107,100,37.4,19,86.6,4.6,12.6,193.3,44.4,"tremors, fatigue",Wilson's Disease
+P0505,51,F,80,111,37.2,23,96.6,14.3,13.4,125.5,39.1,"seizures, cognitive decline",Batten Disease
+P0506,74,M,73,119,39.5,20,92.8,7.9,12.1,89.5,32.0,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0507,20,M,61,134,39.4,23,87.4,7.0,13.4,176.8,1.7,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0508,69,F,111,113,38.0,15,99.7,4.1,16.9,143.7,30.3,"cognitive decline, seizures",Batten Disease
+P0509,46,M,109,155,39.9,30,98.9,5.0,12.1,186.9,46.9,"bruising, bone pain",Gaucher's Disease
+P0510,17,F,112,97,38.5,21,89.0,13.6,17.1,84.0,11.2,"spasms, anxiety",Stiff Person Syndrome
+P0511,74,M,100,103,39.6,29,95.2,14.0,12.7,147.7,18.2,"sweating issues, hearing loss",Fabry Disease
+P0512,64,M,119,136,37.9,18,91.2,7.1,10.3,91.9,4.2,"cognitive decline, vision loss",Batten Disease
+P0513,66,F,106,102,37.2,27,87.4,8.2,17.6,188.6,11.2,"seizures, vision loss",Batten Disease
+P0514,17,F,86,92,36.0,13,93.9,5.9,13.4,106.6,37.3,"cognitive decline, vision loss",Batten Disease
+P0515,65,F,64,98,36.9,19,91.4,7.7,14.8,161.1,11.7,"tall stature, heart murmur",Marfan Syndrome
+P0516,60,F,88,110,38.2,14,85.8,4.8,16.0,178.0,21.9,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0517,68,M,118,116,37.3,16,94.7,9.5,12.3,155.3,44.3,"sweating issues, burning pain",Fabry Disease
+P0518,56,M,70,150,38.5,23,94.9,8.5,10.2,107.6,0.4,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0519,36,F,116,145,38.0,14,92.0,7.3,10.2,127.1,43.8,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0520,69,F,83,137,37.3,24,99.0,10.9,11.2,103.9,43.4,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0521,50,M,100,135,38.1,28,99.5,14.5,17.4,191.3,31.5,"muscle stiffness, spasms",Stiff Person Syndrome
+P0522,10,M,100,127,38.0,26,92.3,11.8,12.0,194.5,36.9,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0523,12,F,94,134,36.0,27,98.7,9.5,11.0,196.6,1.6,"bruising, bone pain",Gaucher's Disease
+P0524,8,F,88,101,38.3,12,86.6,9.7,11.6,194.3,26.7,"burning pain, sweating issues",Fabry Disease
+P0525,69,M,120,124,37.0,22,91.6,4.4,11.5,192.5,13.1,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0526,46,F,92,102,36.7,29,95.1,15.0,10.2,123.3,12.6,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0527,19,F,119,93,38.8,21,85.9,6.8,12.3,155.0,45.5,"heart murmur, vision problems",Marfan Syndrome
+P0528,35,M,87,96,39.0,22,93.1,5.4,16.9,87.7,30.2,"burning pain, sweating issues",Fabry Disease
+P0529,23,M,73,93,37.7,15,96.5,7.9,10.3,108.8,15.3,"seizures, cognitive decline",Batten Disease
+P0530,69,F,70,153,38.5,20,88.0,10.5,11.0,192.3,35.3,"sweating issues, hearing loss",Fabry Disease
+P0531,8,F,86,120,37.5,15,92.2,5.8,16.8,147.0,1.0,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0532,6,M,88,117,37.5,13,96.8,9.7,13.7,81.7,41.0,"tall stature, vision problems",Marfan Syndrome
+P0533,11,M,120,92,38.5,24,92.5,5.7,14.5,75.9,7.9,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0534,70,F,99,112,37.3,27,94.0,14.3,12.5,113.1,7.1,"anxiety, spasms",Stiff Person Syndrome
+P0535,10,M,60,151,38.0,12,95.4,5.5,11.3,154.8,0.8,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0536,18,F,80,135,36.7,12,92.7,6.1,14.4,85.7,35.6,"hearing loss, sweating issues",Fabry Disease
+P0537,47,M,83,142,38.0,19,86.2,10.5,11.0,136.3,41.0,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0538,74,M,118,156,38.1,19,96.9,9.5,17.4,185.9,19.2,"joint pain, dark urine",Alkaptonuria
+P0539,10,M,76,154,38.2,19,93.5,12.8,15.6,90.9,36.4,"enlarged liver, bone pain",Gaucher's Disease
+P0540,26,M,63,148,38.8,14,95.4,9.4,15.1,191.0,19.1,"vision problems, tall stature",Marfan Syndrome
+P0541,65,F,75,149,39.9,21,85.5,12.2,16.8,103.0,28.8,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0542,5,F,113,92,38.3,21,99.8,8.4,12.3,120.5,9.5,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0543,46,M,104,144,37.7,26,85.7,9.7,11.6,85.4,37.8,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0544,29,F,74,140,36.0,19,97.7,14.9,17.9,91.5,49.7,"jaundice, fatigue",Wilson's Disease
+P0545,21,M,105,94,37.0,12,93.1,6.0,12.7,92.9,17.4,"heart murmur, tall stature",Marfan Syndrome
+P0546,12,F,91,98,36.6,17,95.5,13.9,15.0,91.0,27.1,"spasms, muscle stiffness",Stiff Person Syndrome
+P0547,39,F,115,153,36.6,12,97.2,5.2,16.2,179.0,42.2,"burning pain, sweating issues",Fabry Disease
+P0548,7,M,92,100,37.1,29,97.0,12.5,14.3,185.1,17.2,"hallucinations, memory loss",Fatal Familial Insomnia
+P0549,36,M,78,113,38.5,16,86.5,13.5,12.3,110.4,50.0,"spasms, anxiety",Stiff Person Syndrome
+P0550,33,M,119,151,36.3,29,91.9,5.7,16.0,156.4,4.4,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0551,53,F,65,156,36.1,16,98.8,5.8,14.3,150.8,8.2,"bruising, enlarged liver",Gaucher's Disease
+P0552,28,F,84,122,37.7,14,98.5,12.0,13.2,123.2,14.8,"heart valve issues, joint pain",Alkaptonuria
+P0553,61,F,100,134,37.9,28,90.5,5.5,16.2,177.7,37.9,"burning pain, sweating issues",Fabry Disease
+P0554,48,F,89,130,36.0,13,96.7,8.6,11.3,168.3,25.4,"jaundice, fatigue",Wilson's Disease
+P0555,21,F,78,114,39.9,26,88.1,6.9,12.7,76.7,34.6,"spasms, anxiety",Stiff Person Syndrome
+P0556,73,F,105,116,39.9,21,91.1,12.0,12.0,121.8,0.7,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0557,74,M,106,158,36.2,18,92.5,11.4,14.3,76.3,41.4,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0558,58,F,98,115,38.4,19,95.4,13.8,11.9,171.7,27.6,"bruising, enlarged liver",Gaucher's Disease
+P0559,35,F,67,99,38.2,29,99.9,10.3,10.1,161.0,37.0,"jaundice, fatigue",Wilson's Disease
+P0560,61,M,79,116,37.2,28,95.2,10.1,13.2,80.7,22.7,"cognitive decline, vision loss",Batten Disease
+P0561,44,M,73,143,36.0,23,86.4,5.6,11.8,103.1,4.4,"burning pain, hearing loss",Fabry Disease
+P0562,56,M,95,148,38.3,17,94.5,6.5,13.5,148.0,7.9,"bruising, bone pain",Gaucher's Disease
+P0563,40,F,88,127,39.6,13,96.0,11.4,11.2,107.1,1.7,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0564,70,M,87,123,36.7,15,85.7,9.6,10.4,79.6,0.7,"dark urine, joint pain",Alkaptonuria
+P0565,53,F,103,106,37.8,12,88.3,5.7,11.1,108.2,41.0,"vision problems, heart murmur",Marfan Syndrome
+P0566,30,F,70,112,37.5,23,97.1,6.6,13.3,117.2,25.5,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0567,7,M,88,110,38.6,21,94.8,8.8,15.4,131.2,29.7,"burning pain, hearing loss",Fabry Disease
+P0568,17,F,79,160,38.2,22,91.5,6.8,10.9,149.0,18.8,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0569,41,F,93,132,36.9,26,96.1,11.7,11.6,82.9,24.8,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0570,65,F,96,133,39.4,22,88.5,14.3,11.1,140.0,40.5,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0571,6,M,78,113,38.3,30,97.8,4.8,14.9,113.9,11.8,"heart murmur, vision problems",Marfan Syndrome
+P0572,52,F,99,157,37.4,23,95.7,10.7,16.7,122.3,1.5,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0573,31,F,96,98,37.9,21,93.8,6.9,17.7,148.5,49.7,"hearing loss, sweating issues",Fabry Disease
+P0574,19,M,99,102,37.9,19,86.8,10.5,14.0,70.7,31.9,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0575,61,F,118,92,37.9,20,85.1,13.9,17.7,142.1,23.2,"anxiety, spasms",Stiff Person Syndrome
+P0576,15,F,114,100,38.6,22,85.9,9.6,12.4,126.0,22.0,"dark urine, heart valve issues",Alkaptonuria
+P0577,41,F,68,154,38.0,30,93.0,9.1,12.0,82.8,48.7,"tremors, jaundice",Wilson's Disease
+P0578,42,M,69,137,36.1,16,89.8,5.4,11.2,79.3,6.3,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0579,60,M,118,139,37.6,13,86.5,12.3,14.9,160.6,31.8,"cognitive decline, seizures",Batten Disease
+P0580,50,M,61,104,37.8,28,86.9,6.8,17.5,76.2,21.1,"burning pain, hearing loss",Fabry Disease
+P0581,40,F,60,95,39.7,13,91.2,12.5,10.7,172.2,26.5,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0582,7,M,118,122,36.5,19,90.9,6.3,15.3,169.1,48.2,"heart murmur, vision problems",Marfan Syndrome
+P0583,74,F,82,125,36.0,19,99.3,10.6,13.3,71.6,44.0,"muscle stiffness, spasms",Stiff Person Syndrome
+P0584,54,F,100,155,37.8,26,87.8,4.0,16.7,91.5,24.4,"joint pain, dark urine",Alkaptonuria
+P0585,58,M,71,102,36.5,27,85.6,7.2,13.3,70.3,21.3,"fatigue, tremors",Wilson's Disease
+P0586,21,F,69,107,39.6,18,95.9,5.3,13.7,105.9,48.6,"tall stature, heart murmur",Marfan Syndrome
+P0587,8,F,113,125,36.7,20,88.1,8.4,14.9,181.6,2.2,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0588,79,M,119,110,36.2,20,90.0,7.2,14.0,182.1,39.0,"tall stature, heart murmur",Marfan Syndrome
+P0589,25,M,106,105,37.4,30,96.1,13.7,14.8,160.8,1.3,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0590,49,F,101,98,37.4,29,88.2,7.0,18.0,159.5,11.9,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0591,68,F,110,113,38.6,25,87.6,12.6,14.7,120.7,7.1,"anxiety, spasms",Stiff Person Syndrome
+P0592,29,M,63,154,36.2,20,98.6,10.1,12.5,103.1,46.7,"fatigue, jaundice",Wilson's Disease
+P0593,30,F,83,149,36.5,26,85.7,14.2,16.2,166.4,18.4,"bone pain, bruising",Gaucher's Disease
+P0594,46,F,110,111,36.1,18,93.6,13.5,12.9,198.8,3.2,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0595,57,F,106,105,37.1,25,98.3,13.1,17.9,81.2,12.9,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0596,17,F,114,94,37.1,15,88.6,5.7,12.2,133.2,13.5,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0597,28,F,114,96,36.2,19,96.9,12.9,12.4,127.4,40.0,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0598,13,F,117,105,38.6,12,89.3,13.2,13.9,145.1,49.5,"sweating issues, hearing loss",Fabry Disease
+P0599,71,M,90,152,39.7,21,93.7,10.6,15.9,170.0,9.5,"tall stature, vision problems",Marfan Syndrome
+P0600,21,F,63,104,36.4,22,88.1,9.9,13.9,170.1,10.8,"sweating issues, hearing loss",Fabry Disease
+P0601,36,M,74,124,39.9,25,88.1,8.7,11.1,105.6,18.8,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0602,67,M,96,113,37.5,24,95.0,4.7,14.5,168.7,24.0,"enlarged liver, bone pain",Gaucher's Disease
+P0603,12,F,76,118,36.2,28,99.8,11.4,10.5,167.3,31.9,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0604,32,M,60,106,36.9,27,99.8,9.4,13.7,147.9,12.6,"bone pain, enlarged liver",Gaucher's Disease
+P0605,57,M,118,155,38.1,24,85.5,9.8,13.0,134.3,11.8,"tall stature, heart murmur",Marfan Syndrome
+P0606,6,M,106,152,39.0,22,93.5,6.9,11.7,160.1,20.6,"bone pain, enlarged liver",Gaucher's Disease
+P0607,73,F,98,119,38.1,12,94.1,6.0,16.2,148.5,3.7,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0608,10,F,103,106,38.1,29,85.8,8.5,14.5,109.5,16.6,"fatigue, tremors",Wilson's Disease
+P0609,57,F,82,121,37.3,23,91.3,13.5,12.2,127.7,21.1,"enlarged liver, bone pain",Gaucher's Disease
+P0610,77,F,119,98,37.0,23,95.0,5.5,10.8,123.6,38.0,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0611,43,F,63,159,37.2,22,93.9,10.1,10.4,176.4,43.0,"muscle stiffness, spasms",Stiff Person Syndrome
+P0612,25,F,98,135,37.6,20,86.6,7.6,12.5,116.2,31.8,"dark urine, heart valve issues",Alkaptonuria
+P0613,72,F,99,123,36.2,21,86.7,13.2,13.5,108.7,10.2,"sweating issues, burning pain",Fabry Disease
+P0614,60,M,85,146,39.6,24,90.1,14.4,12.8,122.3,48.2,"anxiety, spasms",Stiff Person Syndrome
+P0615,61,M,68,105,38.4,28,90.6,9.3,12.5,96.1,20.5,"vision loss, cognitive decline",Batten Disease
+P0616,50,M,104,132,39.1,14,85.9,8.4,12.9,165.7,36.5,"heart valve issues, joint pain",Alkaptonuria
+P0617,15,M,82,131,37.2,23,89.3,11.1,12.6,109.8,32.5,"hallucinations, memory loss",Fatal Familial Insomnia
+P0618,34,F,90,104,39.0,22,94.1,6.5,15.0,124.6,29.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0619,71,M,77,136,38.4,30,89.2,11.1,11.9,164.1,22.2,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0620,24,M,82,146,39.8,25,91.4,7.0,15.5,194.8,35.8,"heart valve issues, joint pain",Alkaptonuria
+P0621,67,F,62,148,38.1,12,96.8,5.7,11.3,102.5,48.0,"vision loss, seizures",Batten Disease
+P0622,51,F,68,132,39.1,21,85.4,8.9,12.9,117.4,44.8,"joint pain, dark urine",Alkaptonuria
+P0623,9,M,103,118,38.5,21,90.9,13.4,11.6,136.7,42.7,"fatigue, jaundice",Wilson's Disease
+P0624,73,F,106,92,36.1,13,95.2,5.2,17.7,80.8,49.2,"bruising, enlarged liver",Gaucher's Disease
+P0625,77,F,79,90,37.7,24,95.5,5.2,16.7,178.6,25.4,"enlarged liver, bruising",Gaucher's Disease
+P0626,46,F,115,150,36.7,18,96.3,4.1,15.5,137.2,22.3,"anxiety, spasms",Stiff Person Syndrome
+P0627,38,F,110,111,38.2,17,95.3,10.8,17.1,136.4,17.8,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0628,64,M,112,107,39.6,24,95.0,12.4,11.5,169.1,36.4,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0629,60,F,80,93,36.5,25,88.6,11.0,14.2,132.3,21.5,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0630,44,F,119,157,37.1,16,92.5,12.5,14.7,103.5,13.8,"jaundice, tremors",Wilson's Disease
+P0631,47,M,92,102,39.2,23,94.3,6.0,15.7,110.8,33.5,"bone pain, bruising",Gaucher's Disease
+P0632,20,F,90,143,37.4,22,89.5,12.5,10.2,114.0,3.9,"enlarged liver, bone pain",Gaucher's Disease
+P0633,71,M,110,103,38.9,17,86.8,10.4,17.9,106.6,8.4,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0634,73,M,68,97,37.7,23,86.9,5.6,11.7,73.2,39.5,"tall stature, vision problems",Marfan Syndrome
+P0635,29,F,110,127,38.1,26,87.2,7.4,12.8,70.2,15.5,"enlarged liver, bruising",Gaucher's Disease
+P0636,52,F,89,112,36.2,18,98.8,8.7,11.7,76.5,36.6,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0637,10,F,107,144,36.1,26,96.8,14.6,10.2,79.6,24.8,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0638,23,M,120,113,39.4,29,94.2,12.0,10.5,173.3,3.1,"fatigue, jaundice",Wilson's Disease
+P0639,47,F,88,100,38.8,24,96.7,4.3,13.3,71.1,11.3,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0640,70,F,77,102,36.8,27,86.3,12.5,12.7,148.3,8.2,"jaundice, tremors",Wilson's Disease
+P0641,14,F,93,134,38.4,21,87.5,13.7,12.3,124.1,22.5,"enlarged liver, bruising",Gaucher's Disease
+P0642,53,F,69,113,38.9,15,94.9,10.9,17.3,130.6,23.1,"bruising, enlarged liver",Gaucher's Disease
+P0643,80,F,105,129,38.1,25,89.6,9.1,12.8,151.4,25.6,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0644,19,M,64,122,38.4,15,98.7,5.4,10.2,78.9,18.6,"spasms, muscle stiffness",Stiff Person Syndrome
+P0645,14,M,118,118,36.7,22,97.9,11.3,17.3,86.3,31.0,"bruising, bone pain",Gaucher's Disease
+P0646,80,M,99,158,38.7,22,95.2,14.7,15.2,82.9,44.1,"vision loss, seizures",Batten Disease
+P0647,30,F,101,134,39.5,20,85.6,14.7,12.7,183.8,0.2,"joint pain, heart valve issues",Alkaptonuria
+P0648,7,F,101,128,39.3,17,99.2,13.8,17.6,121.8,46.4,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0649,52,F,110,91,38.5,13,98.7,10.7,16.2,112.9,42.7,"enlarged liver, bone pain",Gaucher's Disease
+P0650,33,F,110,104,38.4,29,98.8,10.7,16.3,141.3,7.5,"cognitive decline, seizures",Batten Disease
+P0651,54,F,113,137,36.8,24,89.5,6.3,15.7,160.8,49.6,"memory loss, hallucinations",Fatal Familial Insomnia
+P0652,27,F,103,123,39.2,28,97.4,11.5,10.8,84.8,17.2,"burning pain, hearing loss",Fabry Disease
+P0653,33,M,101,98,37.0,12,89.5,9.7,13.4,135.5,20.6,"heart valve issues, joint pain",Alkaptonuria
+P0654,67,F,64,91,38.9,23,93.1,6.4,17.9,91.5,19.8,"vision loss, seizures",Batten Disease
+P0655,42,F,113,125,38.3,16,89.6,6.3,13.2,155.7,38.0,"tremors, fatigue",Wilson's Disease
+P0656,5,M,103,115,38.4,20,93.0,4.6,17.8,151.1,6.0,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0657,54,M,77,140,39.2,22,92.4,12.1,12.3,99.2,27.9,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0658,71,F,67,153,40.0,15,89.1,9.2,17.5,180.3,6.4,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0659,11,M,61,123,36.7,25,92.5,12.2,15.7,140.0,34.6,"tremors, jaundice",Wilson's Disease
+P0660,63,F,103,139,39.3,28,95.6,6.5,15.9,164.7,47.8,"heart valve issues, dark urine",Alkaptonuria
+P0661,42,M,65,100,36.4,28,98.9,12.3,10.5,98.3,28.2,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0662,45,M,79,120,39.4,25,92.8,10.7,11.8,149.9,1.5,"heart valve issues, joint pain",Alkaptonuria
+P0663,40,M,69,142,37.5,21,86.9,6.2,12.2,156.4,12.0,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0664,45,M,60,114,38.1,30,96.1,12.0,13.9,131.7,6.1,"dark urine, joint pain",Alkaptonuria
+P0665,50,F,63,126,39.2,23,89.9,13.5,13.3,94.4,22.5,"dark urine, joint pain",Alkaptonuria
+P0666,39,M,91,124,39.6,30,95.6,14.5,15.2,117.6,13.1,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0667,7,F,70,106,36.6,29,88.9,12.8,10.5,182.6,33.4,"bone pain, bruising",Gaucher's Disease
+P0668,25,F,105,110,39.9,19,100.0,15.0,17.7,127.2,10.7,"burning pain, sweating issues",Fabry Disease
+P0669,70,F,111,155,36.8,13,88.8,7.2,14.1,120.1,6.3,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0670,28,F,73,142,37.6,30,92.1,12.7,13.8,183.7,7.0,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0671,6,F,120,118,37.4,24,96.6,7.2,10.7,148.6,29.7,"cognitive decline, vision loss",Batten Disease
+P0672,34,F,101,153,37.2,14,95.9,4.8,15.4,168.4,30.2,"tremors, jaundice",Wilson's Disease
+P0673,78,F,93,101,36.9,26,86.6,7.3,15.1,182.0,22.2,"hallucinations, memory loss",Fatal Familial Insomnia
+P0674,54,F,76,157,38.4,28,90.3,8.1,11.9,195.0,38.2,"tall stature, vision problems",Marfan Syndrome
+P0675,9,M,98,125,38.8,23,86.3,14.7,13.5,102.9,24.8,"bone pain, enlarged liver",Gaucher's Disease
+P0676,42,M,69,130,38.4,14,92.4,8.2,11.4,167.6,5.3,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0677,71,F,61,99,39.4,29,98.4,14.9,17.4,141.6,41.5,"jaundice, fatigue",Wilson's Disease
+P0678,64,F,70,102,37.3,19,89.6,14.2,14.1,98.1,10.5,"vision problems, heart murmur",Marfan Syndrome
+P0679,32,F,66,151,38.2,12,86.2,7.8,14.7,120.0,4.7,"hallucinations, memory loss",Fatal Familial Insomnia
+P0680,50,F,83,149,40.0,15,98.8,5.1,11.9,146.2,41.5,"anxiety, spasms",Stiff Person Syndrome
+P0681,74,M,86,153,36.9,16,98.5,8.0,10.2,188.9,15.9,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0682,78,M,109,104,39.9,23,94.2,11.0,12.6,149.0,26.1,"heart murmur, tall stature",Marfan Syndrome
+P0683,18,M,114,129,38.8,14,93.5,12.1,16.9,105.1,24.6,"jaundice, fatigue",Wilson's Disease
+P0684,40,M,109,128,37.5,16,93.2,11.3,12.2,144.7,32.4,"joint pain, dark urine",Alkaptonuria
+P0685,5,F,85,127,36.1,16,86.2,6.6,17.4,83.0,16.5,"sweating issues, hearing loss",Fabry Disease
+P0686,10,F,61,151,38.7,25,90.3,13.1,12.2,173.1,45.8,"cognitive decline, seizures",Batten Disease
+P0687,42,M,112,90,39.2,22,93.4,4.3,17.2,105.9,45.9,"hallucinations, memory loss",Fatal Familial Insomnia
+P0688,9,M,95,126,38.4,17,86.6,12.2,14.6,182.7,19.5,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0689,49,F,100,148,37.2,22,97.8,12.3,17.1,108.0,23.1,"vision problems, heart murmur",Marfan Syndrome
+P0690,29,M,97,128,39.4,24,91.9,12.9,12.7,132.2,8.6,"hearing loss, burning pain",Fabry Disease
+P0691,33,M,83,152,37.1,29,99.2,6.3,16.3,113.1,48.7,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0692,6,F,105,114,37.7,28,88.2,6.9,15.0,124.5,45.3,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0693,30,M,112,99,37.0,17,90.6,13.9,16.8,189.6,27.0,"vision loss, seizures",Batten Disease
+P0694,12,F,80,105,37.0,24,89.4,8.5,14.3,90.3,42.6,"cognitive decline, seizures",Batten Disease
+P0695,17,M,71,152,39.2,16,86.5,6.5,14.6,153.5,37.9,"vision loss, seizures",Batten Disease
+P0696,35,M,64,128,37.6,19,95.3,6.5,16.0,91.4,37.6,"heart valve issues, dark urine",Alkaptonuria
+P0697,47,F,80,101,39.7,24,98.1,11.0,12.6,143.1,34.4,"vision loss, seizures",Batten Disease
+P0698,8,M,87,121,39.9,30,90.6,13.5,11.3,168.9,27.0,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0699,29,F,86,133,37.6,29,86.2,5.8,16.6,125.3,32.1,"tall stature, vision problems",Marfan Syndrome
+P0700,80,M,80,110,37.2,18,90.7,14.5,16.5,94.8,31.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0701,27,F,114,96,36.5,17,94.2,11.0,12.9,130.1,5.8,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0702,5,F,115,129,39.3,30,91.0,6.8,12.9,178.3,23.9,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0703,37,M,110,97,38.3,30,97.1,12.5,11.8,158.2,41.1,"dark urine, heart valve issues",Alkaptonuria
+P0704,14,M,80,105,36.1,18,90.9,5.0,12.1,182.1,46.4,"dark urine, heart valve issues",Alkaptonuria
+P0705,5,F,64,133,39.0,24,98.2,11.6,15.0,82.1,29.7,"vision loss, seizures",Batten Disease
+P0706,70,M,78,111,39.3,19,89.2,14.6,10.3,163.6,26.2,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0707,56,M,66,114,37.5,13,96.1,4.6,14.4,116.4,40.2,"tremors, jaundice",Wilson's Disease
+P0708,10,F,102,151,39.3,28,88.3,10.6,17.3,133.2,34.2,"vision loss, seizures",Batten Disease
+P0709,72,M,78,134,37.6,29,89.8,12.6,12.3,195.2,17.6,"cognitive decline, seizures",Batten Disease
+P0710,46,M,116,99,36.7,14,95.4,9.7,14.5,160.3,23.0,"hallucinations, memory loss",Fatal Familial Insomnia
+P0711,67,M,75,114,37.2,16,99.2,10.7,15.3,84.4,20.9,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0712,9,F,60,109,36.8,28,87.2,12.1,12.1,90.4,0.2,"hallucinations, memory loss",Fatal Familial Insomnia
+P0713,51,F,95,108,37.0,22,95.5,7.3,10.5,121.0,12.6,"cognitive decline, seizures",Batten Disease
+P0714,68,F,70,142,38.0,25,86.5,10.9,10.8,152.8,9.0,"sweating issues, burning pain",Fabry Disease
+P0715,7,M,73,145,37.7,19,92.6,9.6,13.9,166.3,25.0,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0716,40,M,107,135,38.7,21,98.8,12.5,11.0,89.0,41.4,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0717,75,F,120,103,38.8,30,92.6,9.2,16.8,166.6,9.2,"fatigue, jaundice",Wilson's Disease
+P0718,48,M,120,120,39.7,28,93.6,13.5,12.6,151.6,47.4,"muscle stiffness, spasms",Stiff Person Syndrome
+P0719,26,F,70,137,39.3,17,94.7,9.7,15.8,179.3,46.8,"anxiety, spasms",Stiff Person Syndrome
+P0720,75,F,78,133,37.3,16,98.4,4.5,12.8,171.5,33.1,"sweating issues, hearing loss",Fabry Disease
+P0721,31,M,96,156,36.4,18,91.2,4.2,17.1,108.0,18.4,"fatigue, tremors",Wilson's Disease
+P0722,26,F,69,107,39.6,21,85.3,11.6,10.3,196.2,10.4,"burning pain, sweating issues",Fabry Disease
+P0723,50,F,92,121,39.5,15,93.2,5.2,16.2,134.5,45.4,"enlarged liver, bone pain",Gaucher's Disease
+P0724,6,M,98,128,38.5,20,94.6,6.0,16.0,145.1,27.3,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0725,49,F,96,130,40.0,17,87.6,5.4,12.5,99.9,45.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0726,73,M,78,146,37.1,25,92.3,4.0,11.6,150.2,4.4,"jaundice, tremors",Wilson's Disease
+P0727,59,M,77,157,39.6,24,86.1,5.3,16.4,129.8,3.0,"dark urine, heart valve issues",Alkaptonuria
+P0728,23,M,80,108,39.5,30,92.1,12.8,13.8,166.8,37.6,"enlarged liver, bruising",Gaucher's Disease
+P0729,46,M,99,126,36.7,22,89.5,5.0,14.1,121.8,45.3,"muscle stiffness, spasms",Stiff Person Syndrome
+P0730,73,M,108,143,38.1,13,88.2,7.1,13.5,187.7,8.9,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0731,66,F,69,150,37.1,17,97.6,4.3,16.4,81.2,31.7,"vision problems, heart murmur",Marfan Syndrome
+P0732,56,F,96,100,38.4,19,99.2,7.3,12.8,146.5,41.5,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0733,10,F,89,141,37.0,14,94.6,7.4,15.5,186.2,36.4,"muscle stiffness, spasms",Stiff Person Syndrome
+P0734,29,F,119,146,40.0,17,88.3,7.1,11.5,83.9,23.3,"jaundice, fatigue",Wilson's Disease
+P0735,13,M,99,152,36.5,30,97.5,12.8,17.2,123.9,1.5,"tall stature, vision problems",Marfan Syndrome
+P0736,35,F,98,133,39.9,15,96.9,12.0,10.1,78.5,23.2,"fatigue, jaundice",Wilson's Disease
+P0737,45,M,68,120,38.6,22,92.7,13.6,17.4,184.5,43.3,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0738,69,M,71,143,40.0,24,85.3,13.7,11.0,87.0,15.3,"enlarged liver, bruising",Gaucher's Disease
+P0739,39,F,71,100,39.8,29,94.5,4.4,11.6,141.4,4.5,"vision problems, tall stature",Marfan Syndrome
+P0740,34,F,80,108,37.8,25,96.8,12.7,17.5,116.8,27.8,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0741,18,M,81,151,39.5,26,96.6,12.1,16.6,188.7,41.2,"heart murmur, tall stature",Marfan Syndrome
+P0742,20,F,78,150,38.8,25,94.6,4.7,11.7,70.8,5.5,"joint pain, dark urine",Alkaptonuria
+P0743,40,F,60,123,39.4,21,97.9,8.3,17.7,108.9,4.8,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0744,30,M,92,121,38.0,27,96.0,7.4,15.4,168.2,43.7,"cognitive decline, seizures",Batten Disease
+P0745,54,M,91,99,37.7,13,96.2,7.2,14.7,186.0,39.6,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0746,66,M,77,136,36.4,21,88.7,9.2,13.8,83.4,9.6,"tremors, fatigue",Wilson's Disease
+P0747,73,F,69,160,37.7,20,89.4,11.7,13.1,155.7,10.9,"dark urine, joint pain",Alkaptonuria
+P0748,77,F,117,110,39.0,21,93.5,12.1,10.6,199.4,40.7,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0749,40,F,118,101,36.0,23,93.7,6.7,10.2,72.7,26.7,"tremors, jaundice",Wilson's Disease
+P0750,9,M,103,126,36.9,26,90.0,9.3,10.2,197.3,29.3,"jaundice, tremors",Wilson's Disease
+P0751,70,F,76,148,37.2,16,94.8,13.6,16.5,123.7,39.6,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0752,32,M,83,160,36.9,21,91.7,6.6,14.4,105.7,0.2,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0753,11,M,75,115,39.1,20,90.7,9.7,11.6,136.9,8.3,"vision problems, tall stature",Marfan Syndrome
+P0754,74,M,70,100,37.8,18,87.7,13.7,12.3,166.7,15.3,"hearing loss, burning pain",Fabry Disease
+P0755,33,M,109,128,36.9,15,92.7,8.6,16.9,128.5,29.1,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0756,53,M,105,112,39.7,12,92.0,12.9,16.3,175.7,41.6,"cognitive decline, seizures",Batten Disease
+P0757,33,F,63,91,37.4,19,87.2,11.7,16.4,174.8,39.5,"fatigue, tremors",Wilson's Disease
+P0758,38,F,113,113,38.6,12,92.2,5.8,15.2,130.8,20.0,"bone pain, enlarged liver",Gaucher's Disease
+P0759,74,M,92,110,38.0,28,98.0,5.7,11.7,136.6,28.6,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0760,28,M,82,102,39.6,14,88.1,10.5,14.8,156.5,31.0,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0761,12,M,60,128,38.9,24,91.9,14.8,16.1,152.6,30.8,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0762,15,F,70,139,38.3,19,96.9,4.8,14.1,101.7,48.2,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0763,74,M,79,135,37.9,12,85.5,4.9,16.5,199.6,20.7,"enlarged liver, bruising",Gaucher's Disease
+P0764,13,M,88,158,37.5,17,98.9,12.2,11.5,100.8,30.6,"heart murmur, tall stature",Marfan Syndrome
+P0765,33,F,104,104,38.0,12,97.4,13.4,14.1,155.7,25.6,"seizures, cognitive decline",Batten Disease
+P0766,69,F,87,157,39.1,18,86.9,6.8,17.3,124.4,9.9,"dark urine, heart valve issues",Alkaptonuria
+P0767,76,M,114,119,38.6,29,88.5,7.3,10.9,189.0,9.4,"fatigue, jaundice",Wilson's Disease
+P0768,76,M,114,99,39.5,14,93.1,12.7,16.6,182.7,30.8,"tall stature, vision problems",Marfan Syndrome
+P0769,10,M,72,125,36.9,29,90.9,11.7,16.6,90.3,10.3,"spasms, anxiety",Stiff Person Syndrome
+P0770,51,M,98,153,36.9,17,89.9,6.7,17.2,190.8,2.7,"jaundice, tremors",Wilson's Disease
+P0771,66,M,88,143,37.0,27,93.4,7.1,11.6,106.3,12.0,"dark urine, joint pain",Alkaptonuria
+P0772,6,M,83,98,36.5,27,96.7,11.9,10.9,156.8,10.7,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0773,80,F,74,102,36.3,12,87.8,11.7,15.6,184.3,18.6,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0774,28,M,105,90,36.7,19,94.4,12.1,14.0,71.8,42.7,"tremors, fatigue",Wilson's Disease
+P0775,22,F,112,117,37.5,12,85.7,5.0,12.8,178.5,7.5,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0776,42,M,98,141,38.9,18,98.0,5.9,13.7,176.9,39.9,"vision loss, seizures",Batten Disease
+P0777,70,M,60,106,38.1,15,89.0,10.0,14.9,108.6,20.7,"tall stature, heart murmur",Marfan Syndrome
+P0778,14,F,119,114,39.1,28,97.1,12.6,11.2,147.4,17.3,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0779,29,F,62,100,37.9,30,88.7,9.4,11.5,154.0,3.8,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0780,32,F,75,155,39.9,13,99.9,5.9,12.8,70.5,10.6,"spasms, muscle stiffness",Stiff Person Syndrome
+P0781,41,M,99,142,39.3,16,94.2,13.1,13.1,193.4,0.3,"dark urine, heart valve issues",Alkaptonuria
+P0782,52,F,119,115,36.3,23,96.6,9.5,11.4,177.6,15.3,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0783,35,M,80,148,39.3,20,89.2,11.2,15.4,131.9,9.2,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0784,41,M,101,128,36.5,24,95.8,11.1,11.9,145.7,36.2,"joint pain, dark urine",Alkaptonuria
+P0785,37,M,89,149,37.5,25,97.3,8.0,15.0,71.1,26.0,"enlarged liver, bruising",Gaucher's Disease
+P0786,50,F,107,96,36.4,29,97.4,7.7,17.4,81.8,24.3,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0787,64,M,115,145,39.3,21,96.6,7.0,14.4,102.6,41.0,"enlarged liver, bone pain",Gaucher's Disease
+P0788,73,M,94,110,37.2,14,86.3,13.3,16.0,124.0,19.0,"vision loss, cognitive decline",Batten Disease
+P0789,35,F,62,155,38.7,26,89.9,9.9,13.8,82.4,36.3,"vision problems, heart murmur",Marfan Syndrome
+P0790,15,F,93,141,38.9,20,99.2,7.5,10.3,76.0,20.1,"tremors, jaundice",Wilson's Disease
+P0791,70,F,115,118,39.6,14,92.6,8.9,10.1,109.2,42.4,"burning pain, hearing loss",Fabry Disease
+P0792,12,F,62,133,39.5,15,90.1,11.2,12.3,99.8,31.6,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0793,55,M,108,129,36.3,27,87.7,5.5,12.3,115.9,41.3,"bruising, enlarged liver",Gaucher's Disease
+P0794,8,M,90,143,36.1,20,95.5,9.0,15.1,142.1,42.6,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0795,78,F,83,144,36.3,25,86.3,7.5,13.5,132.9,24.1,"enlarged liver, bone pain",Gaucher's Disease
+P0796,15,F,89,121,36.7,29,95.1,5.4,17.2,118.8,15.7,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0797,73,M,80,155,37.8,17,91.0,14.7,10.2,121.2,21.2,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0798,35,F,96,110,38.8,24,98.1,6.0,10.2,90.5,29.5,"heart murmur, vision problems",Marfan Syndrome
+P0799,22,M,68,160,38.4,17,95.5,4.6,14.7,164.8,27.7,"jaundice, fatigue",Wilson's Disease
+P0800,70,F,91,146,38.1,28,90.0,11.7,16.2,121.2,3.7,"vision problems, tall stature",Marfan Syndrome
+P0801,33,F,117,154,38.0,28,88.7,7.5,14.4,163.5,13.4,"hearing loss, sweating issues",Fabry Disease
+P0802,70,F,117,95,39.6,29,94.6,6.6,12.9,183.3,16.6,"spasms, muscle stiffness",Stiff Person Syndrome
+P0803,70,M,63,138,37.0,14,87.4,10.5,14.0,173.2,11.1,"tall stature, heart murmur",Marfan Syndrome
+P0804,23,M,118,116,39.8,12,88.8,10.6,11.5,171.2,21.7,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0805,70,M,96,90,38.2,29,89.4,5.9,16.3,150.3,40.6,"hearing loss, burning pain",Fabry Disease
+P0806,24,M,98,151,38.3,15,92.3,9.8,13.5,113.5,36.5,"sweating issues, hearing loss",Fabry Disease
+P0807,66,M,101,139,36.8,26,99.6,6.2,10.1,84.9,14.8,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0808,75,M,92,120,39.4,16,92.6,10.2,12.1,149.7,34.3,"tremors, fatigue",Wilson's Disease
+P0809,8,M,77,149,38.0,17,87.0,13.4,10.1,114.4,35.0,"tremors, fatigue",Wilson's Disease
+P0810,51,F,85,128,36.1,27,85.1,6.7,12.0,174.7,20.1,"hypermobile joints, easy bruising",Ehlers-Danlos Syndrome
+P0811,44,F,86,114,39.2,27,96.4,7.4,16.9,146.1,47.9,"enlarged liver, bone pain",Gaucher's Disease
+P0812,77,F,68,137,40.0,22,90.2,6.7,16.3,171.4,14.5,"seizures, cognitive decline",Batten Disease
+P0813,50,M,89,106,39.3,15,93.2,5.5,12.2,148.9,45.5,"tall stature, vision problems",Marfan Syndrome
+P0814,55,M,82,149,36.4,28,86.5,14.0,17.5,185.8,27.1,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0815,77,M,109,155,39.5,20,94.3,7.8,17.7,81.0,45.1,"fatigue, jaundice",Wilson's Disease
+P0816,59,M,93,97,37.9,13,97.8,5.5,17.4,128.3,10.5,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0817,71,F,87,114,39.7,21,94.5,14.3,15.0,190.7,46.8,"vision loss, seizures",Batten Disease
+P0818,36,M,84,148,38.2,24,86.9,8.1,15.4,150.1,21.3,"muscle stiffness, spasms",Stiff Person Syndrome
+P0819,39,F,79,126,36.3,17,97.8,11.0,10.1,120.6,31.1,"hearing loss, sweating issues",Fabry Disease
+P0820,60,F,64,114,38.6,26,85.5,6.1,15.1,130.9,23.8,"tall stature, vision problems",Marfan Syndrome
+P0821,36,M,101,122,39.2,21,92.3,14.1,16.8,153.0,46.4,"fatigue, tremors",Wilson's Disease
+P0822,19,M,86,100,37.7,16,93.6,5.9,16.2,197.2,25.8,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0823,13,M,89,137,39.5,24,92.6,9.3,17.2,147.1,49.5,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0824,55,F,101,102,39.7,17,95.5,4.8,12.7,104.1,30.9,"tremors, jaundice",Wilson's Disease
+P0825,26,M,64,133,36.2,28,92.9,14.7,17.1,151.2,48.7,"dark urine, heart valve issues",Alkaptonuria
+P0826,15,M,66,138,38.4,23,87.2,4.1,17.1,84.9,6.2,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0827,49,F,110,123,36.3,15,97.4,8.6,12.3,160.3,38.7,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0828,24,M,82,147,36.6,27,98.7,13.0,14.8,128.3,1.4,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0829,26,F,73,93,36.3,28,88.1,4.4,12.8,71.8,22.0,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0830,12,M,105,135,37.5,17,88.7,13.0,11.0,170.3,39.4,"bruising, enlarged liver",Gaucher's Disease
+P0831,71,M,93,95,39.4,15,99.5,5.7,12.3,104.2,46.5,"seizures, vision loss",Batten Disease
+P0832,47,F,116,129,39.1,26,89.0,8.9,12.6,177.3,36.9,"spasms, anxiety",Stiff Person Syndrome
+P0833,55,F,91,115,36.3,18,90.1,8.4,16.8,95.1,27.9,"hallucinations, memory loss",Fatal Familial Insomnia
+P0834,17,M,91,119,39.4,29,97.0,11.7,16.1,135.9,12.9,"memory loss, sleep disturbances",Fatal Familial Insomnia
+P0835,48,M,74,129,38.9,27,96.0,4.0,14.4,95.1,47.0,"heart valve issues, dark urine",Alkaptonuria
+P0836,61,F,71,124,40.0,28,88.3,10.3,17.8,93.4,29.7,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0837,21,F,63,90,39.7,28,92.9,14.7,15.2,108.9,20.8,"vision problems, heart murmur",Marfan Syndrome
+P0838,18,F,64,112,37.1,23,91.2,12.4,12.0,80.6,30.0,"tremors, jaundice",Wilson's Disease
+P0839,73,F,91,132,39.6,16,91.6,9.1,16.5,79.6,37.7,"bruising, bone pain",Gaucher's Disease
+P0840,41,M,71,158,37.4,28,88.1,8.3,16.3,180.7,12.7,"heart murmur, vision problems",Marfan Syndrome
+P0841,47,M,69,108,38.6,18,95.7,9.0,17.5,157.1,35.4,"bruising, enlarged liver",Gaucher's Disease
+P0842,38,F,111,95,38.0,13,96.9,7.2,16.1,74.2,39.7,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0843,37,M,92,93,38.2,19,89.2,10.9,13.5,153.3,8.9,"fatigue, tremors",Wilson's Disease
+P0844,12,M,120,135,38.5,15,99.4,12.6,13.3,70.6,23.2,"enlarged liver, bruising",Gaucher's Disease
+P0845,63,F,61,136,36.7,26,94.7,5.3,10.6,154.4,16.4,"vision problems, heart murmur",Marfan Syndrome
+P0846,40,M,119,90,37.5,14,99.3,13.4,17.8,158.5,22.4,"hearing loss, sweating issues",Fabry Disease
+P0847,60,M,97,126,37.8,23,87.2,8.1,12.6,143.6,26.5,"enlarged liver, bruising",Gaucher's Disease
+P0848,29,M,85,125,37.8,26,94.9,11.4,11.7,111.9,33.1,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0849,79,F,80,115,38.5,16,94.3,7.1,10.7,153.9,48.7,"heart valve issues, joint pain",Alkaptonuria
+P0850,38,M,92,121,37.2,13,92.8,7.7,12.6,96.4,1.9,"seizures, vision loss",Batten Disease
+P0851,21,F,77,123,36.9,15,94.1,9.0,15.9,149.4,33.6,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0852,80,F,71,130,39.7,13,92.2,12.3,16.3,112.9,15.4,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0853,76,F,66,133,37.6,14,90.8,6.1,14.4,111.6,26.8,"dark urine, joint pain",Alkaptonuria
+P0854,69,F,116,121,36.8,24,93.5,10.6,12.7,184.1,37.3,"joint pain, heart valve issues",Alkaptonuria
+P0855,7,F,100,142,36.1,29,85.2,9.5,11.3,118.6,27.5,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0856,37,M,117,120,37.0,27,98.5,7.4,17.7,172.5,23.6,"fatigue, tremors",Wilson's Disease
+P0857,62,M,87,108,39.4,21,89.7,5.3,15.6,194.6,40.0,"hallucinations, memory loss",Fatal Familial Insomnia
+P0858,55,F,66,132,37.8,20,99.3,13.2,13.5,183.4,1.6,"tall stature, heart murmur",Marfan Syndrome
+P0859,24,F,84,119,38.4,26,96.2,11.8,17.2,86.2,16.6,"seizures, vision loss",Batten Disease
+P0860,35,F,104,109,36.1,30,97.5,12.7,16.5,138.2,18.9,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0861,18,M,86,99,38.3,25,90.6,11.1,13.3,141.4,32.0,"tremors, jaundice",Wilson's Disease
+P0862,67,F,70,120,37.3,20,98.7,8.1,12.4,164.0,45.5,"autoimmune disorders, frequent infections",Hyper IgM Syndrome
+P0863,79,F,68,100,39.0,25,94.4,7.8,14.3,145.9,42.6,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0864,73,M,72,106,39.9,18,92.0,13.0,16.7,147.6,7.0,"tremors, fatigue",Wilson's Disease
+P0865,40,F,93,126,36.2,12,97.4,7.9,15.1,81.0,42.6,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0866,72,M,63,99,37.1,25,85.2,4.6,14.8,100.5,1.7,"tall stature, vision problems",Marfan Syndrome
+P0867,21,F,92,115,38.7,12,91.0,9.9,14.1,155.6,28.4,"vision loss, seizures",Batten Disease
+P0868,13,F,103,107,36.7,21,95.5,11.0,12.2,197.5,30.4,"vision problems, heart murmur",Marfan Syndrome
+P0869,41,M,84,97,38.1,27,90.8,5.0,11.9,110.0,22.1,"sweating issues, hearing loss",Fabry Disease
+P0870,41,F,111,125,39.2,15,86.0,5.6,16.6,145.8,20.3,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0871,11,M,110,91,39.7,16,95.7,4.9,16.7,92.9,33.4,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0872,65,F,118,140,36.2,28,97.6,11.1,11.0,97.9,20.6,"anxiety, spasms",Stiff Person Syndrome
+P0873,24,M,115,132,37.9,28,98.9,9.0,15.1,138.9,1.8,"joint pain, heart valve issues",Alkaptonuria
+P0874,44,M,73,129,37.6,22,86.3,8.1,11.1,166.2,30.3,"enlarged lymph nodes, frequent infections",Hyper IgM Syndrome
+P0875,35,M,84,149,37.6,12,98.7,13.4,17.2,191.4,46.7,"hearing loss, sweating issues",Fabry Disease
+P0876,38,F,99,154,38.3,14,89.3,14.5,15.7,99.5,31.3,"tremors, jaundice",Wilson's Disease
+P0877,77,F,106,116,39.6,21,88.5,8.9,10.3,159.6,20.9,"spasms, muscle stiffness",Stiff Person Syndrome
+P0878,59,F,111,144,37.1,24,85.3,4.7,16.6,156.7,20.8,"burning pain, sweating issues",Fabry Disease
+P0879,12,M,83,142,38.1,22,94.0,9.6,17.2,131.1,14.4,"memory loss, hallucinations",Fatal Familial Insomnia
+P0880,27,M,68,125,37.4,24,98.5,5.9,12.4,136.0,7.4,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0881,23,M,61,92,38.1,20,92.4,6.6,11.2,157.2,1.3,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0882,49,M,92,146,37.0,17,89.7,10.5,10.1,79.8,28.4,"vision problems, tall stature",Marfan Syndrome
+P0883,53,M,78,115,39.8,22,95.6,5.4,15.4,136.3,48.5,"sweating issues, hearing loss",Fabry Disease
+P0884,22,F,95,128,37.0,13,85.8,8.9,11.1,165.2,44.4,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0885,75,F,97,117,39.9,19,88.6,12.7,12.6,177.8,49.5,"joint pain, dark urine",Alkaptonuria
+P0886,7,F,61,143,37.6,21,89.6,5.9,14.9,126.8,24.2,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0887,69,M,102,150,39.3,25,92.0,11.8,17.5,146.3,16.0,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0888,29,F,63,153,36.2,24,97.6,13.6,13.2,185.2,5.9,"hallucinations, sleep disturbances",Fatal Familial Insomnia
+P0889,33,M,109,131,38.2,25,98.0,13.9,14.3,178.6,49.1,"dark urine, heart valve issues",Alkaptonuria
+P0890,57,F,99,140,38.3,26,86.0,12.6,15.8,96.2,34.0,"hallucinations, memory loss",Fatal Familial Insomnia
+P0891,55,F,110,97,36.6,16,87.1,14.6,14.7,181.9,17.4,"bone pain, enlarged liver",Gaucher's Disease
+P0892,24,F,100,101,39.5,30,93.0,5.0,12.5,129.7,25.4,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0893,26,M,93,156,38.2,18,88.9,7.5,16.6,74.9,5.6,"seizures, cognitive decline",Batten Disease
+P0894,16,M,89,122,36.4,18,85.3,11.2,11.1,85.4,5.1,"hallucinations, memory loss",Fatal Familial Insomnia
+P0895,44,F,102,102,39.0,12,92.1,11.0,17.6,82.3,47.8,"heart valve issues, dark urine",Alkaptonuria
+P0896,80,F,110,142,38.0,21,87.9,7.2,11.3,189.3,4.0,"heart murmur, tall stature",Marfan Syndrome
+P0897,28,M,98,103,36.7,18,94.4,14.5,17.4,124.2,41.9,"heart murmur, vision problems",Marfan Syndrome
+P0898,29,M,108,133,38.0,17,98.6,13.8,11.2,180.2,31.9,"seizures, vision loss",Batten Disease
+P0899,37,M,101,143,36.2,20,95.5,4.7,16.4,138.9,5.5,"enlarged lymph nodes, autoimmune disorders",Hyper IgM Syndrome
+P0900,77,M,90,160,36.6,27,89.1,8.5,11.2,108.8,41.1,"seizures, vision loss",Batten Disease
+P0901,45,M,83,90,39.3,24,96.3,9.4,12.6,191.4,8.2,"jaundice, tremors",Wilson's Disease
+P0902,63,M,95,128,38.5,27,87.0,14.6,11.7,173.2,3.6,"dark urine, joint pain",Alkaptonuria
+P0903,20,M,66,135,37.5,16,98.0,4.5,11.5,111.4,48.4,"hearing loss, sweating issues",Fabry Disease
+P0904,28,M,90,146,36.3,26,96.9,8.7,12.1,82.6,18.2,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0905,60,F,84,109,39.4,20,94.0,5.2,11.9,162.0,15.6,"sweating issues, burning pain",Fabry Disease
+P0906,70,F,64,116,37.2,30,89.8,13.5,14.9,166.7,45.2,"bruising, enlarged liver",Gaucher's Disease
+P0907,30,M,119,134,38.2,16,88.2,10.5,10.0,169.2,24.8,"heart valve issues, dark urine",Alkaptonuria
+P0908,8,F,92,153,37.9,18,88.0,6.1,14.2,156.4,7.7,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0909,55,F,66,114,37.1,13,99.7,6.1,12.8,178.0,8.1,"muscle stiffness, anxiety",Stiff Person Syndrome
+P0910,23,M,94,109,38.8,15,89.4,8.2,14.5,130.8,8.3,"jaundice, fatigue",Wilson's Disease
+P0911,13,F,67,101,39.2,26,87.0,6.8,13.5,197.2,21.2,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0912,33,M,108,95,39.2,23,99.2,8.0,17.9,189.0,46.0,"chronic pain, easy bruising",Ehlers-Danlos Syndrome
+P0913,37,F,97,118,38.3,15,96.3,6.0,12.9,132.2,33.8,"dark urine, joint pain",Alkaptonuria
+P0914,50,M,88,152,38.7,24,99.2,12.4,12.5,113.7,13.4,"cognitive decline, seizures",Batten Disease
+P0915,15,F,72,127,39.1,14,91.5,8.8,12.0,192.3,39.7,"heart murmur, tall stature",Marfan Syndrome
+P0916,64,F,85,104,37.5,28,94.1,13.2,14.0,70.2,38.8,"seizures, vision loss",Batten Disease
+P0917,18,F,117,125,36.1,23,95.1,12.4,14.5,174.8,8.6,"burning pain, hearing loss",Fabry Disease
+P0918,66,M,68,109,38.0,23,96.5,10.7,11.8,188.6,1.9,"enlarged liver, bruising",Gaucher's Disease
+P0919,58,F,106,128,36.5,29,85.8,13.4,11.5,192.2,29.5,"bone pain, enlarged liver",Gaucher's Disease
+P0920,44,F,110,98,39.1,27,99.7,9.4,12.7,169.9,31.3,"muscle stiffness, spasms",Stiff Person Syndrome
+P0921,32,M,82,95,36.9,14,94.0,7.3,15.5,143.4,41.4,"dark urine, joint pain",Alkaptonuria
+P0922,17,F,66,130,39.3,23,95.4,11.0,15.9,131.6,47.6,"bruising, bone pain",Gaucher's Disease
+P0923,62,M,88,136,36.5,27,98.7,9.0,16.6,84.5,11.9,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0924,30,M,83,147,40.0,23,88.6,4.4,13.7,191.6,12.6,"bruising, enlarged liver",Gaucher's Disease
+P0925,14,F,74,159,38.7,13,99.1,5.1,14.6,105.2,30.6,"heart valve issues, dark urine",Alkaptonuria
+P0926,60,F,119,107,37.8,20,90.5,14.0,15.6,117.3,8.5,"joint pain, dark urine",Alkaptonuria
+P0927,74,F,101,120,39.8,27,98.0,6.5,10.9,165.5,26.5,"sweating issues, hearing loss",Fabry Disease
+P0928,60,F,68,138,38.9,23,87.4,7.3,17.1,126.1,11.2,"muscle stiffness, spasms",Stiff Person Syndrome
+P0929,34,M,61,125,38.0,30,97.3,14.2,10.6,195.1,34.0,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0930,12,F,79,111,36.9,14,87.6,7.7,17.2,78.3,9.1,"bruising, enlarged liver",Gaucher's Disease
+P0931,54,F,81,148,37.9,17,94.1,7.1,12.7,199.4,49.2,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0932,75,F,64,158,38.8,27,89.4,11.8,12.1,107.5,14.5,"heart valve issues, joint pain",Alkaptonuria
+P0933,35,F,99,124,37.7,17,90.0,4.2,13.3,129.1,33.1,"burning pain, hearing loss",Fabry Disease
+P0934,56,M,67,92,38.5,19,89.2,8.7,17.3,95.4,7.0,"tremors, fatigue",Wilson's Disease
+P0935,15,M,111,151,36.5,15,90.2,11.0,10.4,78.4,43.1,"bone pain, enlarged liver",Gaucher's Disease
+P0936,70,M,103,100,38.6,14,99.4,5.3,11.1,164.7,16.5,"heart valve issues, joint pain",Alkaptonuria
+P0937,57,F,63,120,36.6,27,96.2,6.7,15.8,180.9,36.6,"heart valve issues, joint pain",Alkaptonuria
+P0938,10,M,112,156,38.0,17,85.4,10.7,16.5,154.5,2.9,"easy bruising, chronic pain",Ehlers-Danlos Syndrome
+P0939,18,F,66,125,39.0,15,97.0,8.9,11.9,199.2,31.0,"muscle stiffness, spasms",Stiff Person Syndrome
+P0940,61,F,62,91,36.7,29,88.4,8.4,11.3,126.9,12.4,"spasms, muscle stiffness",Stiff Person Syndrome
+P0941,62,M,85,137,37.3,26,86.6,14.2,16.3,186.1,19.1,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0942,56,M,94,144,36.1,21,96.4,10.5,12.9,169.3,25.6,"tremors, fatigue",Wilson's Disease
+P0943,49,M,113,137,37.2,30,94.1,14.5,10.5,110.3,31.0,"chronic pain, hypermobile joints",Ehlers-Danlos Syndrome
+P0944,24,F,63,97,37.5,23,97.4,6.8,15.7,183.6,20.4,"bone pain, enlarged liver",Gaucher's Disease
+P0945,34,M,60,91,38.6,17,97.8,14.4,17.3,161.2,27.5,"bruising, bone pain",Gaucher's Disease
+P0946,14,F,113,92,36.5,16,90.5,14.6,17.5,91.5,19.3,"sleep disturbances, memory loss",Fatal Familial Insomnia
+P0947,72,M,85,158,36.6,23,92.1,4.3,12.9,84.4,22.0,"joint pain, heart valve issues",Alkaptonuria
+P0948,65,M,81,91,38.7,24,93.6,10.3,16.9,199.1,44.8,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0949,5,F,105,142,37.3,21,95.4,11.3,14.9,88.0,49.7,"enlarged liver, bone pain",Gaucher's Disease
+P0950,52,F,120,146,39.2,22,92.6,14.9,16.3,165.4,8.7,"cognitive decline, vision loss",Batten Disease
+P0951,61,M,61,96,36.8,26,99.9,7.3,14.6,158.6,5.6,"jaundice, tremors",Wilson's Disease
+P0952,48,M,104,152,39.8,27,98.4,14.8,11.1,177.2,5.2,"bone pain, bruising",Gaucher's Disease
+P0953,18,M,92,96,39.2,26,97.2,6.3,11.6,183.3,42.0,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0954,54,M,79,98,37.6,24,98.4,13.8,13.4,88.0,36.1,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0955,49,F,100,106,38.5,12,86.6,5.1,15.3,192.7,42.5,"bruising, bone pain",Gaucher's Disease
+P0956,19,F,88,119,38.8,14,91.0,4.9,12.7,71.2,4.9,"jaundice, fatigue",Wilson's Disease
+P0957,46,F,106,123,36.1,22,87.8,10.6,14.0,95.2,28.4,"tall stature, heart murmur",Marfan Syndrome
+P0958,61,F,81,144,38.1,17,87.5,9.1,16.8,167.6,11.6,"hearing loss, sweating issues",Fabry Disease
+P0959,20,F,118,127,38.1,16,92.1,10.1,15.8,103.5,1.6,"sleep disturbances, hallucinations",Fatal Familial Insomnia
+P0960,66,F,74,92,37.5,25,87.6,11.7,14.2,106.8,30.7,"vision problems, tall stature",Marfan Syndrome
+P0961,54,M,110,97,36.0,20,99.8,4.0,15.9,100.3,8.4,"spasms, anxiety",Stiff Person Syndrome
+P0962,70,M,68,138,36.7,21,98.2,7.7,13.0,133.9,4.0,"hallucinations, memory loss",Fatal Familial Insomnia
+P0963,76,F,75,116,38.2,12,99.0,7.5,11.8,70.0,33.7,"joint pain, dark urine",Alkaptonuria
+P0964,50,M,109,159,37.9,14,98.7,12.6,16.5,149.8,15.2,"vision problems, tall stature",Marfan Syndrome
+P0965,45,M,78,102,39.3,22,85.1,6.6,16.3,162.8,49.6,"jaundice, tremors",Wilson's Disease
+P0966,60,F,97,127,37.5,29,94.0,11.3,14.4,182.5,11.4,"frequent infections, autoimmune disorders",Hyper IgM Syndrome
+P0967,29,M,80,153,37.9,14,88.8,7.6,16.2,118.0,35.9,"vision problems, heart murmur",Marfan Syndrome
+P0968,29,F,102,107,39.2,29,87.2,9.1,16.6,169.6,25.3,"bone pain, bruising",Gaucher's Disease
+P0969,39,F,110,108,37.8,28,93.5,7.6,16.4,91.2,40.3,"tremors, fatigue",Wilson's Disease
+P0970,78,M,82,113,37.3,18,87.0,12.6,17.9,107.4,30.9,"easy bruising, hypermobile joints",Ehlers-Danlos Syndrome
+P0971,8,M,92,112,39.0,28,86.0,10.0,16.0,111.6,44.8,"tall stature, vision problems",Marfan Syndrome
+P0972,55,F,80,146,37.6,21,95.1,4.3,17.3,188.5,36.4,"fatigue, jaundice",Wilson's Disease
+P0973,66,F,103,105,38.3,17,91.3,5.1,15.7,139.1,40.4,"jaundice, fatigue",Wilson's Disease
+P0974,70,F,67,133,38.8,27,86.2,14.6,12.9,179.2,13.9,"vision loss, seizures",Batten Disease
+P0975,50,F,76,108,39.6,23,90.0,10.5,11.9,129.7,24.6,"joint pain, heart valve issues",Alkaptonuria
+P0976,36,M,71,117,39.0,23,90.3,12.4,14.5,156.8,35.6,"memory loss, hallucinations",Fatal Familial Insomnia
+P0977,42,M,97,102,36.7,16,95.1,9.4,15.8,171.7,5.0,"joint pain, heart valve issues",Alkaptonuria
+P0978,47,M,112,94,37.5,27,88.2,7.2,16.7,181.2,6.7,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0979,7,M,63,135,38.3,26,95.3,10.1,10.9,100.1,1.7,"autoimmune disorders, enlarged lymph nodes",Hyper IgM Syndrome
+P0980,79,M,63,122,37.7,21,87.9,5.9,10.7,187.2,33.0,"hypermobile joints, chronic pain",Ehlers-Danlos Syndrome
+P0981,69,F,93,134,38.8,28,89.4,6.1,15.4,148.3,47.9,"vision loss, seizures",Batten Disease
+P0982,53,M,119,154,38.4,13,98.1,5.7,17.2,100.9,27.8,"cognitive decline, seizures",Batten Disease
+P0983,76,F,99,134,36.4,15,99.2,9.2,10.3,116.1,49.8,"bone pain, enlarged liver",Gaucher's Disease
+P0984,51,F,81,94,38.4,15,88.2,9.2,10.5,184.0,0.7,"spasms, muscle stiffness",Stiff Person Syndrome
+P0985,29,F,85,93,39.4,12,85.9,11.1,14.2,159.4,9.1,"sweating issues, burning pain",Fabry Disease
+P0986,17,M,91,151,37.8,24,97.9,6.6,12.8,183.5,26.7,"hearing loss, burning pain",Fabry Disease
+P0987,20,F,73,150,38.8,27,86.0,9.9,12.6,199.0,21.0,"frequent infections, enlarged lymph nodes",Hyper IgM Syndrome
+P0988,23,F,102,145,39.9,18,88.4,14.7,12.5,114.9,20.1,"spasms, anxiety",Stiff Person Syndrome
+P0989,42,F,111,136,36.6,23,87.8,6.0,11.9,95.8,40.0,"dark urine, heart valve issues",Alkaptonuria
+P0990,10,M,66,158,38.9,29,92.4,7.8,12.4,143.3,41.1,"vision loss, seizures",Batten Disease
+P0991,74,M,105,90,37.5,28,88.4,12.8,10.5,194.5,39.9,"bruising, bone pain",Gaucher's Disease
+P0992,64,F,87,131,39.0,20,97.8,14.5,17.9,100.7,31.5,"heart murmur, tall stature",Marfan Syndrome
+P0993,74,M,105,153,38.5,13,96.8,10.0,15.5,77.4,9.9,"vision problems, tall stature",Marfan Syndrome
+P0994,19,F,71,94,37.7,23,87.0,11.1,12.6,191.5,37.3,"anxiety, muscle stiffness",Stiff Person Syndrome
+P0995,44,M,78,117,37.6,14,86.0,4.9,13.2,93.2,43.6,"enlarged liver, bone pain",Gaucher's Disease
+P0996,41,M,84,104,37.4,15,92.7,8.8,12.4,169.8,18.7,"seizures, cognitive decline",Batten Disease
+P0997,62,M,110,121,38.8,22,96.1,7.2,11.3,149.4,24.6,"cognitive decline, vision loss",Batten Disease
+P0998,18,M,111,141,37.8,15,93.7,13.4,15.6,149.8,4.6,"bruising, enlarged liver",Gaucher's Disease
+P0999,36,F,66,125,37.3,12,98.2,14.4,12.2,163.5,26.9,"spasms, anxiety",Stiff Person Syndrome
+P1000,7,F,78,97,39.0,26,86.9,11.8,10.7,109.7,33.2,"seizures, vision loss",Batten Disease
