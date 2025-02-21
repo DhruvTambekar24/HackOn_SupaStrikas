@@ -28,6 +28,11 @@ const HomePage = () => {
                 Report Summarizer
               </button>
             </Link>
+            <Link to="/parkinson">
+              <button className="px-6 py-3 bg-cyan-600 rounded-full text-lg font-semibold hover:bg-cyan-700 transition">
+                Parkinson's Predictor
+              </button>
+            </Link>
           </div>
         </SignedIn>
 

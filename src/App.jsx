@@ -6,6 +6,7 @@ import Home from "./components/HomePage";
 import NotFound from "./components/NotFound";
 import BrainTumour from "./components/BrainTumour";
 import Records from "./components/Reports";
+import ParkinsonPredictor from "./components/Parkinson";
 
 const App = () => {
   return (
@@ -59,6 +60,19 @@ const App = () => {
             <>
               <SignedIn>
                 <SkinCancerDetection />
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+        <Route
+          path="/parkinson"
+          element={
+            <>
+              <SignedIn>
+                <ParkinsonPredictor/>
               </SignedIn>
               <SignedOut>
                 <LandingPage />
