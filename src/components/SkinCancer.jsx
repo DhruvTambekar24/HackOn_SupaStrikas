@@ -98,7 +98,7 @@ const SkinCancerDetection = () => {
   
 
   return (
-    <div className="min-h-screen min-w-screen bg-gradient-to-br from-rose-50 via-white to-rose-50">
+    <div className=" mt-12 rounded-3xl mx-12 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-950">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -118,8 +118,8 @@ const SkinCancerDetection = () => {
 
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Upload Section */}
-            <div className="space-y-6">
-              <div className="border-2 border-dashed border-gray-300 rounded-3xl p-8 text-center hover:border-violet-500 transition-colors bg-white">
+            <div className="space-y-6 pt-12">
+              <div className="border-2 border-dashed border-gray-300 rounded-3xl p-8 text-center hover:border-violet-500 transition-colors bg-transparent ">
                 <input
                   type="file"
                   accept="image/*"
@@ -133,7 +133,7 @@ const SkinCancerDetection = () => {
                 >
                   <Upload size={48} className="text-gray-400" />
                   <div className="space-y-2">
-                    <p className="text-lg font-semibold text-gray-700">
+                    <p className="text-lg font-semibold text-gray-300">
                       Upload Skin Image
                     </p>
                     <p className="text-sm text-gray-500">
@@ -164,7 +164,7 @@ const SkinCancerDetection = () => {
                   animate={{ opacity: 1 }}
                   className="space-y-4"
                 >
-                  <h2 className="text-2xl font-semibold text-gray-800">
+                  <h2 className="text-2xl font-extrabold text-gray-300">
                     Selected Image
                   </h2>
                   <div className="rounded-3xl overflow-hidden bg-white shadow-lg">
@@ -189,13 +189,13 @@ const SkinCancerDetection = () => {
                   <div className="space-y-4">
                     <div className="flex justify-between items-center py-2 border-b border-gray-100">
                       <span className="text-gray-600">Type:</span>
-                      <span className="font-semibold text-violet-600">
+                      <span className=" text-blue-600 font-bold ">
                         {detectionResult.top_result.type}
                       </span>
                     </div>
                     <div className="flex justify-between items-center py-2 border-b border-gray-100">
                       <span className="text-gray-600">Confidence:</span>
-                      <span className="font-semibold text-violet-600">
+                      <span className="font-bold text-xl text-blue-600">
                         {detectionResult.top_result.confidence !== undefined
                           ? `${detectionResult.top_result.confidence.toFixed(2)}%`
                           : "N/A"}
@@ -208,8 +208,8 @@ const SkinCancerDetection = () => {
           </div>
 
           {/* Past Results Section */}
-          <div className="mt-16 space-y-6">
-            <h2 className="text-2xl font-bold text-gray-800">Past Results</h2>
+          <div className="mt-16 space-y-6 ">
+            <h2 className="text-2xl font-bold text-gray-300">Past Results</h2>
             {pastResults.length > 0 ? (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {pastResults.map((result, index) => (

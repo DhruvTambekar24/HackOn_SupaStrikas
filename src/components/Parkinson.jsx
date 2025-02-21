@@ -53,16 +53,16 @@ export default function ParkinsonPredictor() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-6">
+    <div className="max-w-4xl  mx-auto  flex flex-col items-center justify-center bg-transparent text-white p-6">
       <div className="w-full bg-gray-800 shadow-lg rounded-2xl p-6 border border-gray-700">
         {/* Title Section */}
-        <h1 className="text-4xl font-bold text-emerald-400 text-center mb-4">
+        <h1 className="text-4xl font-bold text-blue-400 text-center mb-4">
           Parkinson's Disease Prediction
         </h1>
 
         {/* About Parkinson’s Disease */}
         <div className="bg-gray-700 p-4 rounded-lg mb-6">
-          <h2 className="text-xl font-semibold text-emerald-300">What is Parkinson’s Disease?</h2>
+          <h2 className="text-xl font-semibold text-blue-300">What is Parkinson’s Disease?</h2>
           <p className="text-gray-300 mt-2">
             Parkinson’s disease is a progressive neurological disorder that affects movement. It occurs due to
             the loss of dopamine-producing neurons in the brain, leading to symptoms like tremors, slow movement,
@@ -91,7 +91,7 @@ export default function ParkinsonPredictor() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-emerald-500 text-white py-3 px-6 rounded-lg hover:bg-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center transition"
+            className="w-full bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center transition"
           >
             {loading ? "Predicting..." : "Predict"}
           </button>
@@ -103,10 +103,10 @@ export default function ParkinsonPredictor() {
         {/* Prediction Result */}
         {prediction !== null && (
           <div className="mt-6 bg-gray-700 rounded-lg p-4 text-center">
-            <h3 className="text-xl font-semibold text-emerald-400">
+            <h3 className="text-xl font-semibold text-blue-400">
               Prediction Result:
             </h3>
-            <p className={`text-lg mt-2 font-bold ${prediction === 1 ? "text-red-500" : "text-green-500"}`}>
+            <p className={`text-lg mt-2 font-bold ${prediction === 1 ? "text-red-500" : "text-blue-500"}`}>
               {prediction === 1 ? "Parkinson's Detected 😞" : "No Parkinson's Detected 🎉"}
             </p>
             <p className="text-gray-300 text-sm mt-2">
