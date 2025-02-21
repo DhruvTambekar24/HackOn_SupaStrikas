@@ -3,14 +3,22 @@ import axios from "axios";
 
 const SkinCancerDetection = () => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const [originalImage, setOriginalImage] = useState(null);
+  const [imagePreview, setImagePreview] = useState(null);
   const [detectionResult, setDetectionResult] = useState(null);
   const [error, setError] = useState("");
 
+  // Handle File Selection
   const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
+    const file = event.target.files[0];
+    setSelectedFile(file);
+
+    // Show image preview
+    if (file) {
+      setImagePreview(URL.createObjectURL(file));
+    }
   };
 
+  // Handle Image Upload & Send to API
   const handleUpload = async (event) => {
     event.preventDefault();
     if (!selectedFile) {
@@ -26,10 +34,12 @@ const SkinCancerDetection = () => {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
-      setOriginalImage(response.data.original_image);
-      setDetectionResult(response.data.top_result);
+      console.log("API Response:", response.data); // Debugging
+
+      setDetectionResult(response.data); // Store API response
       setError("");
     } catch (error) {
+      console.error("Upload Error:", error);
       setError("Error analyzing the image. Please try again.");
     }
   };
@@ -45,25 +55,27 @@ const SkinCancerDetection = () => {
         <button type="submit">Analyze Skin Cell</button>
       </form>
 
-      {originalImage && (
+      {imagePreview && (
         <div className="image-container">
-          <h2>Original Image</h2>
-          <img src={`http://localhost:5000/static/${originalImage}`} alt="Original" />
+          <h2>Selected Image</h2>
+          <img src={imagePreview} alt="Preview" />
         </div>
       )}
 
-      {detectionResult ? (
+      {detectionResult?.top_result?.type ? (
         <div className="detection-results">
-          <h2>Top Detection</h2>
+          <h2>Detection Result</h2>
           <p>
-            <strong>Type:</strong> {detectionResult.type} <br />
-            <strong>Confidence:</strong> {detectionResult.confidence.toFixed(2)}%
+            <strong>Type:</strong> {detectionResult.top_result.type} <br />
+            <strong>Confidence:</strong>{" "}
+            {detectionResult.top_result.confidence !== undefined
+              ? `${detectionResult.top_result.confidence.toFixed(2)}%`
+              : "N/A"}
           </p>
+          
         </div>
       ) : (
-        <div className="no-detection">
-          <p>No specific skin lesions detected above the confidence threshold.</p>
-        </div>
+        <p>No detection results yet.</p>
       )}
     </div>
   );
