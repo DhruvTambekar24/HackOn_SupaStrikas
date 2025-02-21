@@ -58,7 +58,7 @@ export default function TumorDetection() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-8">
+    <div className="mx-56 mt-24 m flex flex-col rounded-2xl  items-center justify-center bg-gradient-to-br from-gray-800 via-gray-800 to-gray-950 text-white p-8">
       <h1 className="text-3xl font-bold mb-6">Brain Tumor Detection</h1>
 
       {/* File Upload */}

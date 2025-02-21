@@ -51,18 +51,18 @@ export function Records() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto min-h-screen flex items-center justify-center bg-gray-900 text-white p-6">
+    <div className="max-w-3xl mx-auto min-h-screen flex items-center justify-center  text-white p-6">
       <div className="w-full bg-gray-800 shadow-lg rounded-2xl p-6 border border-gray-700">
-        <h2 className="text-3xl font-bold text-emerald-400 mb-4">Medical Records Analysis</h2>
+        <h2 className="text-3xl font-bold text-blue-400 mb-4">Medical Records Analysis</h2>
 
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-300 mb-2">
             Upload Medical Record
           </label>
-          <div className="mt-1 flex flex-col items-center justify-center px-6 pt-5 pb-6 border-2 border-gray-600 border-dashed rounded-lg hover:border-emerald-500 transition">
+          <div className="mt-1 flex flex-col items-center justify-center px-6 pt-5 pb-6 border-2 border-gray-600 border-dashed rounded-lg hover:border-blue-500 transition">
             <FileText className="h-12 w-12 text-gray-400" />
             <div className="flex text-sm text-gray-400 mt-2">
-              <label className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-emerald-400 hover:text-emerald-300 transition">
+              <label className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-blue-400 hover:text-blue-300 transition">
                 <span>Upload a file</span>
                 <input
                   type="file"
@@ -86,7 +86,7 @@ export function Records() {
         <button
           onClick={handleAnalyze}
           disabled={!selectedFile || isLoading}
-          className="w-full bg-emerald-500 text-white py-3 px-6 rounded-lg hover:bg-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center transition"
+          className="w-full bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center transition"
         >
           {isLoading ? (
             <>
@@ -101,7 +101,7 @@ export function Records() {
         {/* Analysis Results */}
         {analysis && (
           <div className="mt-6 bg-gray-700 rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-emerald-400 mb-4">Analysis Results</h3>
+            <h3 className="text-2xl font-semibold text-blue-400 mb-4">Analysis Results</h3>
             {analysis.map((section, index) => (
               <div key={index} className="mb-6">
                 <h4 className="text-xl font-semibold text-gray-200">{section.title}</h4>
