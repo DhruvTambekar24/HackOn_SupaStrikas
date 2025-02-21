@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import {Link} from 'react-router-dom'
 
 export default function LandingPage() {
   const fadeInUp = {
@@ -38,9 +39,11 @@ export default function LandingPage() {
                 {...fadeInUp}
                 transition={{ delay: 0.4 }}
               >
+                <Link to="/skin" >
                 <button className="px-8 py-4 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 text-white font-semibold text-lg hover:shadow-lg transition-shadow duration-200">
                   Get Started
                 </button>
+                </Link>
                 <button className="px-8 py-4 rounded-full bg-gray-900 text-white font-semibold text-lg hover:bg-gray-800 transition-colors duration-200">
                   Learn More
                 </button>
