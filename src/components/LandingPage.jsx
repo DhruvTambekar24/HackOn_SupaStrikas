@@ -10,8 +10,9 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-rose-50 via-white to-rose-50">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-rose-200 via-white to-rose-200">
       {/* Navigation */}
+
 
 
       {/* Hero Section */}
@@ -26,7 +27,7 @@ export default function LandingPage() {
                 transition={{ duration: 0.8 }}
                 className="space-y-8"
               >
-                <h1 className="text-6xl font-bold leading-tight bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">
+                <h1 className="text-6xl font-bold leading-tight bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent tracking-tight">
                   AI-Powered Diagnostic Platform
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed max-w-xl">
