@@ -76,8 +76,8 @@ export default function LandingPage() {
               transition={{ delay: 0.6 }}
             >
               {[
-                { title: "Accuracy Rate", value: "99.9%" },
-                { title: "Diseases Covered", value: "5000+" },
+                { title: "Accuracy Rate", value: "98.4%" },
+                { title: "Diseases Covered", value: "5+" },
                 { title: "Medical Partners", value: "200+" },
                 { title: "Patient Success", value: "50k+" },
               ].map((stat) => (
@@ -110,6 +110,7 @@ export default function LandingPage() {
                 { title: "Tumor Detection ai", value: "Tumor Detection" },
                 { title: "Report Summarizer ai", value: "Report Summarizer" },
                 { title: "Parkinson's Detector ai", value: "Parkinson's Detector" },
+                { title: "RareDx ai", value: "RareDx" },
               ].map((stat) => (
                 <motion.div
                   key={stat.title}

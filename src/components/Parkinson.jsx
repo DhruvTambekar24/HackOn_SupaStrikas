@@ -43,34 +43,35 @@ export default function ParkinsonPredictor() {
 
     try {
       const response = await axios.post("http://127.0.0.1:5003/predict", formData);
-      setPrediction(response.data.prediction);
+
+      // ✅ Add a 4-second delay before showing the prediction
+      setTimeout(() => {
+        setPrediction(response.data.prediction);
+        setLoading(false);
+      }, 4000);
     } catch (err) {
       setError("Error making prediction. Please try again.");
       console.error(err);
-    } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="max-w-4xl  mx-auto  flex flex-col items-center justify-center bg-transparent text-white p-6">
+    <div className="max-w-4xl mx-auto flex flex-col items-center justify-center bg-transparent text-white p-6">
       <div className="w-full bg-gray-800 shadow-lg rounded-2xl p-6 border border-gray-700">
-        {/* Title Section */}
         <h1 className="text-4xl font-bold text-blue-400 text-center mb-4">
           Parkinson's Disease Prediction
         </h1>
 
-        {/* About Parkinson’s Disease */}
         <div className="bg-gray-700 p-4 rounded-lg mb-6">
           <h2 className="text-xl font-semibold text-blue-300">What is Parkinson’s Disease?</h2>
           <p className="text-gray-300 mt-2">
-            Parkinson’s disease is a progressive neurological disorder that affects movement. It occurs due to
-            the loss of dopamine-producing neurons in the brain, leading to symptoms like tremors, slow movement,
-            muscle stiffness, and balance issues.
+            Parkinson’s disease is a progressive neurological disorder that affects movement.
+            It occurs due to the loss of dopamine-producing neurons in the brain, leading to symptoms
+            like tremors, slow movement, muscle stiffness, and balance issues.
           </p>
         </div>
 
-        {/* Prediction Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
           {Object.keys(formData).map((key) => (
             <div key={key}>
@@ -97,10 +98,8 @@ export default function ParkinsonPredictor() {
           </button>
         </form>
 
-        {/* Error Message */}
         {error && <p className="text-red-400 mt-4 text-center">{error}</p>}
 
-        {/* Prediction Result */}
         {prediction !== null && (
           <div className="mt-6 bg-gray-700 rounded-lg p-4 text-center">
             <h3 className="text-xl font-semibold text-blue-400">

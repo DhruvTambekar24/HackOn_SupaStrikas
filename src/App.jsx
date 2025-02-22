@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate , Link } from "react-router-dom";
 // import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
 import LandingPage from "./components/LandingPage";
 import SkinCancerDetection from "./components/SkinCancer";
@@ -7,12 +7,14 @@ import NotFound from "./components/NotFound";
 import BrainTumour from "./components/BrainTumour";
 import Records from "./components/Reports";
 import ParkinsonPredictor from "./components/Parkinson";
+import FileUpload from "./components/FileUpload"
 import {
   SignedIn,
   SignedOut,
   SignInButton,
   UserButton,
 } from "@clerk/clerk-react";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
@@ -32,9 +34,11 @@ const App = () => {
       </nav> */}
             {/* Header */}
             <header className="w-full py-4 px-8 flex justify-between items-center border-b border-gray-800 bg-gray-800">
+              <Link to="/home"> 
       <h2 className="text-3xl font-extrabold tracking-tighter bg-gradient-to-r from-violet-600 to-cyan-500 bg-clip-text text-transparent">
             DiagnoseAi
           </h2>
+          </Link>
 
         <div className="flex space-x-4">
           <SignedOut>
@@ -128,6 +132,19 @@ const App = () => {
             <>
               <SignedIn>
                 <ParkinsonPredictor/>
+              </SignedIn>
+              <SignedOut>
+                <LandingPage />
+              </SignedOut>
+            </>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <>
+              <SignedIn>
+                <Profile/>
               </SignedIn>
               <SignedOut>
                 <LandingPage />

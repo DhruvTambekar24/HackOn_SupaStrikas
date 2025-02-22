@@ -53,16 +53,12 @@ const SkinCancerDetection = () => {
       });
 
       console.log(response.data);
-      const modifiedResult = {
-        category: response.data.top_result.type, // Fix: Change 'type' to 'category'
-        confidence: response.data.top_result.confidence,
-      };
-
-      setDetectionResult({ top_result: modifiedResult });
+      setDetectionResult(response.data);
+      setError("");
 
       // Save the detection result to the database
-      await saveDetectionResult(selectedFile, modifiedResult);
-      fetchPastResults(); // Refresh past results after saving
+      await saveDetectionResult(selectedFile, response.data.top_result);
+    fetchPastResults();// Refresh past results after saving
     } catch (error) {
       console.error("Upload Error:", error);
       setError("Error analyzing the image. Please try again.");
@@ -72,21 +68,21 @@ const SkinCancerDetection = () => {
   };
 
   const saveDetectionResult = async (imageFile, topResult) => {
-    if (!imageFile || !topResult || !topResult.category || topResult.confidence == null) {
+    if (!imageFile || !topResult || !topResult.type || topResult.confidence == null) {
       setError("Invalid result format. Unable to save.");
       return;
     }
-
+  
     const formData = new FormData();
     formData.append("image", imageFile); // ✅ Attach the actual file
     formData.append("top_result", JSON.stringify(topResult)); // ✅ Send as a string
-
+  
     setIsSaving(true);
     try {
       const response = await axios.post("http://localhost:8000/api/yolo/save", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-
+  
       console.log("✅ Detection result saved:", response.data);
       fetchPastResults();
     } catch (error) {
@@ -96,6 +92,8 @@ const SkinCancerDetection = () => {
       setIsSaving(false);
     }
   };
+  
+  
   
   
 
@@ -210,7 +208,7 @@ const SkinCancerDetection = () => {
           </div>
 
           {/* Past Results Section */}
-          <div className="mt-16 space-y-6 ">
+          {/* <div className="mt-16 space-y-6 ">
             <h2 className="text-2xl font-bold text-gray-300">Past Results</h2>
             {pastResults.length > 0 ? (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -246,7 +244,7 @@ const SkinCancerDetection = () => {
             ) : (
               <p className="text-gray-500 text-center py-8">No past results found.</p>
             )}
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </div>
