@@ -110,7 +110,7 @@ UPLOAD_FOLDER = 'static/uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Load the YOLO model globally
+
 model = YOLO('best.pt')
 
 def predict_top_class(filepath):

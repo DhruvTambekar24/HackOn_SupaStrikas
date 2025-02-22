@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Enable CORS
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allows all origins (change to ["http://localhost:5173"] for security)
